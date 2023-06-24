@@ -1,5 +1,5 @@
-// Website-1 we are collecting the data from: https://www.goodreturns.in/gold-rates/united-states.html
-// Website-2 (we will implement this later): https://pricegold.net/today/
+// Website-1 we are collecting the data from: https://www.goodreturns.in/gold-rates/united-states.html (we will use this for states in india only)
+// Website-2 (we will implement this later): https://pricegold.net/today/ (we will use this for countries)
 // Documenttaion for table-scraper: https://www.npmjs.com/package/table-scraper
 // reference (ignore): https://www.npmjs.com/package/live-fuel-currency-gold-prices
 
