@@ -1,14 +1,14 @@
 {
-  "dependencies": {
-    "postman-request": "^2.88.1-postman.33"
-  },
-  "name": "new-folder",
+  "name": "table",
   "version": "1.0.0",
-  "main": "hii.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "table-scraper": "^1.0.3"
+  }
 }
