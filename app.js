@@ -20,9 +20,9 @@ scraper
         const costOfCarat22 = parseFloat(stringCostOfCarat22.replace(/[^0-9.-]+/g, ''));
       
         // Extract the currency symbol only using regex
-        const currencySymbol = stringCostOfCarat22.replace(/[0-9.,]+/g, '');
+        const currencySymbolCarat22 = stringCostOfCarat22.replace(/[0-9.,]+/g, '');
       
-        console.log(`The cost of ${weightOfCarat22} of ${carat22} gold is: ${costOfCarat22} ${currencySymbol}`);
+        console.log(`The cost of ${weightOfCarat22} of ${carat22} gold is: ${costOfCarat22} ${currencySymbolCarat22}`);
 
         /*
         the output will be an array of arrays.'
