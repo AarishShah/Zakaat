@@ -12,6 +12,8 @@ scraper
     .then(function (tableData)
     {
         // console.log(tableData); // to display entire list of tables
+
+        // From the tableData, we will extract the cost of 22 carat gold
         const weightOfCarat22 = tableData[0][1][0]; // 1 gram gold
         const carat22 = tableData[0][0][1]; // 22 carat gold
         const stringCostOfCarat22 = tableData[0][1][1]; // cost of 1 gram of 22 carat gold
@@ -24,7 +26,7 @@ scraper
 
         console.log(`The cost of ${weightOfCarat22} of ${carat22} gold is: ${costOfCarat22} ${currencySymbolCarat22}`);
 
-
+        // From the tableData, we will extract the cost of 24 carat gold
         const weightOfCarat24 = tableData[1][1][0];
         const carat24 = tableData[1][0][1];
         const stringCostOfCarat24 = tableData[1][1][1];
