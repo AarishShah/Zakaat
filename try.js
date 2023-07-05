@@ -20,11 +20,10 @@ scraper
         console.log(goldData[5])// 10k 1Gram
 
         /*
-
         Create const for each of the above
         use regex to extract the number and currency symbol
         log the output in the following format: The cost of 24k 1Gram of gold is: 61.98 $ , in us-united-states
-    
+        do not delete the comments. Write your code from line 28 or below.
         */
 
     });
