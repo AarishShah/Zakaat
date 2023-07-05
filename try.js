@@ -19,8 +19,47 @@ scraper
         console.log(goldData[4])// 14k 1Gram
         console.log(goldData[5])// 10k 1Gram
 
+        /*
 
+        Create const for each of the above
+        use regex to extract the number and currency symbol
+        log the output in the following format: The cost of 24k 1Gram of gold is: 61.98 $ , in us-united-states
+    
+        */
 
-
-        //  console.log(`The cost of ${weightOfCarat24Gm} gm, ${weightOfCarat24Ounce} ounce and ${weightOfCarat24Kg}  kg gold is ${priceInCountry}`);
     });
+
+/*
+Output:
+
+{
+Gold: '24k 1Gram',
+'United States dollar': '$61.98',
+"Today's change": '$0.07'        
+}
+{
+Gold: '22k 1Gram',
+'United States dollar': '$56.81',
+"Today's change": '$0.06'
+}
+{
+Gold: '21k 1Gram',
+'United States dollar': '$54.23',
+"Today's change": '$0.06'
+}
+{
+Gold: '18k 1Gram',
+'United States dollar': '$46.48',
+"Today's change": '$0.05'
+}
+{
+Gold: '14k 1Gram',
+'United States dollar': '$36.15',
+"Today's change": '$0.04'
+}
+{
+Gold: '10k 1Gram',
+'United States dollar': '$25.82',
+"Today's change": '$0.03'
+}
+*/
