@@ -15,8 +15,14 @@ scraper
         // console.log(goldData[0])// 24k 1Gram
        
         const happy = Object.entries(goldData[0]); // is used to convert the object data into an array of its key-value pairs
-        console.log(happy[0]);
-        console.log(happy[1]); // @KhushbooHamid @urbeena implement the rest accordingly
+        
+const WeightOfCarrt24 = happy[0][1].replace(' 1Gram', '');
+const costCarrt24 = parseFloat(happy[1][1].replace(/[^0-9.]+/g, ''));
+const currencySymbol = happy[1][1].replace(/[^A-Za-z]+/g, '');
+const locationName = location.split('-').join('-');
+
+console.log(`The cost of 1 gram of ${WeightOfCarrt24}  gold  Today is: ${costCarrt24} ${currencySymbol} in ${locationName}`);
+
        
         // console.log(goldData[1])// 22k 1Gram
         // console.log(goldData[2])// 21k 1Gram
