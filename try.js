@@ -1,7 +1,7 @@
 // Website-2 (we will implement this later): https://pricegold.net/today/ (we will use this for countries)
 
 var scraper = require('table-scraper');
-const location = 'us-united-states';
+const location = 'pakistan';
 // const url = `https://pricegold.net/${location}/24k-gold/`;
 const url = `https://pricegold.net/${location}`; // this should work
 
@@ -16,14 +16,22 @@ scraper
        
         const happy = Object.entries(goldData[0]); // is used to convert the object data into an array of its key-value pairs
         
-const WeightOfCarrt24 = happy[0][1].replace(' 1Gram', '');
-const costCarrt24 = parseFloat(happy[1][1].replace(/[^0-9.]+/g, ''));
-const currencySymbol = happy[1][1].replace(/[^A-Za-z]+/g, '');
-const locationName = location.split('-').join('-');
-
-console.log(`The cost of 1 gram of ${WeightOfCarrt24}  gold  Today is: ${costCarrt24} ${currencySymbol} in ${locationName}`);
-
+        const Carat22 = happy[0][1].replace(' 1Gram', '');// 24k
+        
+        
+        const weightOfCarat22 = happy[0][1].split(' ')[1];// 1gram
        
+        
+
+const costOfCarat22= parseFloat(happy[1][1].replace(/[^0-9.]+/g, '')); //cost
+const currencySymbolCarat22 = happy[1][0].replace(/[^A-Za-z]+/g, '')// currency symbol
+const locationName = location.split('-').join('-');
+console.log(` the cost of ${weightOfCarat22} of ${Carat22}  gold is ${costOfCarat22 } ${currencySymbolCarat22}  `)
+
+
+
+
+           console.log(goldData[0])       
         // console.log(goldData[1])// 22k 1Gram
         // console.log(goldData[2])// 21k 1Gram
         // console.log(goldData[3])// 18k 1Gram
