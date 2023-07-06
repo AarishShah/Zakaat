@@ -24,7 +24,7 @@ scraper
         // Extract the currency symbol only using regex
         const currencySymbolCarat22 = stringCostOfCarat22.replace(/[0-9.,]+/g, '');
 
-        console.log(`The cost of ${weightOfCarat22} of ${carat22} gold is: ${costOfCarat22} ${currencySymbolCarat22}`);
+        console.log(`The cost of ${weightOfCarat22} of ${carat22} gold is: ${costOfCarat22} ${currencySymbolCarat22} in ${location}`);
 
         // From the tableData, we will extract the cost of 24 carat gold
         const weightOfCarat24 = tableData[1][1][0];
@@ -37,6 +37,6 @@ scraper
         // Extract the currency symbol only using regex
         const currencySymbolCarat24 = stringCostOfCarat24.replace(/[0-9.,]+/g, '');
 
-        console.log(`The cost of ${weightOfCarat24} of ${carat24} gold is: ${costOfCarat24} ${currencySymbolCarat24}`);
+        console.log(`The cost of ${weightOfCarat24} of ${carat24} gold is: ${costOfCarat24} ${currencySymbolCarat24} in ${location}`);
 
     });
