@@ -12,12 +12,17 @@ scraper
     {
         // console.log(tableData[0]) // firsd table on the website
         const goldData = tableData[0];
-        console.log(goldData[0])// 24k 1Gram
-        console.log(goldData[1])// 22k 1Gram
-        console.log(goldData[2])// 21k 1Gram
-        console.log(goldData[3])// 18k 1Gram
-        console.log(goldData[4])// 14k 1Gram
-        console.log(goldData[5])// 10k 1Gram
+        // console.log(goldData[0])// 24k 1Gram
+       
+        const happy = Object.entries(goldData[0]); // is used to convert the object data into an array of its key-value pairs
+        console.log(happy[0]);
+        console.log(happy[1]); // @KhushbooHamid @urbeena implement the rest accordingly
+       
+        // console.log(goldData[1])// 22k 1Gram
+        // console.log(goldData[2])// 21k 1Gram
+        // console.log(goldData[3])// 18k 1Gram
+        // console.log(goldData[4])// 14k 1Gram
+        // console.log(goldData[5])// 10k 1Gram
 
         /*
         Create const for each of the above
