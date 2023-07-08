@@ -20,7 +20,7 @@ scraper
             const currencySymbol = value[1][1].replace(/[0-9.,]+/g, ''); // currency symbol
             const cost = parseFloat(value[1][1].replace(/[^0-9.-]+/g, '')); // cost
 
-            console.log(value[0][1]); // 24k 1Gram
+            console.log(value[0][1]); // Description: 24k 1Gram
             console.log(currencySymbol);
             console.log(cost);
             console.log("\n");

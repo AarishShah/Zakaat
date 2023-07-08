@@ -40,3 +40,5 @@ scraper
         console.log(`The cost of ${weightOfCarat24} of ${carat24} gold is: ${costOfCarat24} ${currencySymbolCarat24} in ${location}`);
 
     });
+
+// make the code look cleaner by using functions or something else. @AarishShah
