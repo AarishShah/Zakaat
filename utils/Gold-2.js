@@ -1,4 +1,5 @@
-// Website-2 (we will implement this later): https://pricegold.net/today/ (we will use this for countries)
+// Data source: https://pricegold.net/today/ (we will use this for countries)
+// Documenttaion for table-scraper: https://www.npmjs.com/package/table-scraper
 
 var scraper = require('table-scraper');
 const location = 'in-india';

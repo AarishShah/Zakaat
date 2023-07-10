@@ -1,5 +1,4 @@
-// Website-1 we are collecting the data from: https://www.goodreturns.in/gold-rates/united-states.html (we will use this for states in india only)
-// Website-2 (we will implement this later): https://pricegold.net/today/ (we will use this for countries)
+// Data source: https://www.goodreturns.in/gold-rates/united-states.html (we will use this for states in India only)
 // Documenttaion for table-scraper: https://www.npmjs.com/package/table-scraper
 // reference (ignore): https://www.npmjs.com/package/live-fuel-currency-gold-prices
 
@@ -11,34 +10,18 @@ scraper
     .get(url)
     .then(function (tableData)
     {
-        // console.log(tableData); // to display entire list of tables
+        for (let index = 0; index < 2; index++)
+        {
+            goldData = tableData[index]; // first ittion: 22 karat gold, second ittion: 24 karat gold
+            const weight = goldData[1][0]; // 1 gram gold
+            const purity = goldData[0][1]; // 22/24 karat gold
+            const currencySymbol = goldData[1][1].replace(/[0-9.,]+/g, ''); // Extracts the currency symbol only using regex
+            const cost = parseFloat(goldData[1][1].replace(/[^0-9.-]+/g, '')); // Extracts the number only using regex
 
-        // From the tableData, we will extract the cost of 22 carat gold
-        const weightOfCarat22 = tableData[0][1][0]; // 1 gram gold
-        const carat22 = tableData[0][0][1]; // 22 carat gold
-        const stringCostOfCarat22 = tableData[0][1][1]; // cost of 1 gram of 22 carat gold
-
-        // Extract the number only using regex
-        const costOfCarat22 = parseFloat(stringCostOfCarat22.replace(/[^0-9.-]+/g, ''));
-
-        // Extract the currency symbol only using regex
-        const currencySymbolCarat22 = stringCostOfCarat22.replace(/[0-9.,]+/g, '');
-
-        console.log(`The cost of ${weightOfCarat22} of ${carat22} gold is: ${costOfCarat22} ${currencySymbolCarat22} in ${location}`);
-
-        // From the tableData, we will extract the cost of 24 carat gold
-        const weightOfCarat24 = tableData[1][1][0];
-        const carat24 = tableData[1][0][1];
-        const stringCostOfCarat24 = tableData[1][1][1];
-
-        // Extract the number only using regex
-        const costOfCarat24 = parseFloat(stringCostOfCarat24.replace(/[^0-9.-]+/g, ''));
-
-        // Extract the currency symbol only using regex
-        const currencySymbolCarat24 = stringCostOfCarat24.replace(/[0-9.,]+/g, '');
-
-        console.log(`The cost of ${weightOfCarat24} of ${carat24} gold is: ${costOfCarat24} ${currencySymbolCarat24} in ${location}`);
-
+            console.log(weight);
+            console.log(purity);
+            console.log(currencySymbol);
+            console.log(cost);
+            console.log("\n");
+        }
     });
-
-// make the code look cleaner by using functions or something else. @AarishShah
