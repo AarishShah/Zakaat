@@ -3,9 +3,7 @@
 
 var scraper = require('table-scraper');
 const location = 'in-india';
-// const url = `https://pricegold.net/${location}/24k-gold/`;
-const url = `https://pricegold.net/${location}`; // this should work
-
+const url = `https://pricegold.net/${location}`;
 
 scraper
     .get(url)
@@ -27,23 +25,3 @@ scraper
             console.log("\n");
         }
     });
-
-/*
-goldData returns an object.
-we convert goldData to an array using Object.entries(goldData) and store it in value.
-
-[
-[ 'Gold', '24k 1Gram' ],
-[ 'Indian rupee', '₹5,118.20' ],
-[ 'In USD', '$61.92' ],
-[ "Today's change", '₹0.00' ]
-]
-
-Indexing:
-[
-[ 00, 01 ],
-[ 10, 11 ],
-[ 20, 21 ],
-[ 30, 32 ]
-]
-*/
