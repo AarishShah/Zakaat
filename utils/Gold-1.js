@@ -25,4 +25,3 @@ scraper
             console.log("\n");
         }
     });
-    // ignore
