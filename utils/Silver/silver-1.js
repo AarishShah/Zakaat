@@ -13,7 +13,7 @@ scraper
         const weight = silverData[0];
         const value = silverData[1];
         const currencySymbol = value.replace(/[0-9.,]+/g, '');
-        const cost = value.replace(/[^0-9.-]+/g, '')
+        const cost = parseFloat(value.replace(/[^0-9.-]+/g, ''));
 
         console.log(weight);
         console.log(currencySymbol);
