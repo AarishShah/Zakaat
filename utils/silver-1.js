@@ -6,8 +6,9 @@ const url = `https://www.goodreturns.in/silver-rates/${location}.html`;
 
 scraper
     .get(url)
-    .then(function (tableData) {
-        
+    .then(function (tableData)
+    {
+
         const silverData = tableData[0][1];
         const weight = silverData[0];
         const value = silverData[1];
