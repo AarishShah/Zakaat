@@ -16,10 +16,11 @@ scraper
         {
             const value = Object.entries(goldData[index]);
 
+            const purity = parseInt(value[0][1].replace(/k.*/, ''));
             const currencySymbol = value[1][1].replace(/[0-9.,]+/g, ''); // currency symbol
             const cost = parseFloat(value[1][1].replace(/[^0-9.-]+/g, '')); // cost
 
-            console.log(value[0][1]); // Description: 24k 1Gram
+            console.log("Purity: " + purity); // all values are for 1 gram
             console.log(currencySymbol);
             console.log(cost);
             console.log("\n");

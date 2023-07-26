@@ -9,12 +9,12 @@ scraper
     .then(function (tableData)
     {
         const silverData = tableData[0][1];
-        const weight = silverData[0];
+        // const weight = parseInt(silverData[0].replace(/[^0-9]+/g, ''));
         const price = silverData[1];
         const currencySymbol = price.replace(/[0-9.,]+/g, '');
         const cost = parseFloat(price.replace(/[^0-9.-]+/g, ''));
 
-        console.log(weight);
+        // console.log(weight); // all values are for 1 gram
         console.log(currencySymbol);
         console.log(cost);
         console.log("\n");

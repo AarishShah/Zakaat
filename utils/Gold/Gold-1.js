@@ -13,13 +13,13 @@ scraper
         for (let index = 0; index < 2; index++)
         {
             goldData = tableData[index]; // first ittion: 22 karat gold, second ittion: 24 karat gold
-            const weight = goldData[1][0]; // 1 gram gold
-            const purity = goldData[0][1]; // 22/24 karat gold
+            // const weight = parseInt(goldData[1][0].replace(/[^0-9]+/g, '')); // 1 gram gold
+            const purity = parseInt(goldData[0][1].replace(/[^0-9]+/g, '')); // 22/24 karat gold
             const currencySymbol = goldData[1][1].replace(/[0-9.,]+/g, ''); // Extracts the currency symbol only using regex
             const cost = parseFloat(goldData[1][1].replace(/[^0-9.-]+/g, '')); // Extracts the number only using regex
 
-            console.log(weight);
-            console.log(purity);
+            // console.log("Gram: " + weight);
+            console.log("Purity: " + purity); // all values are for 1 gram
             console.log(currencySymbol);
             console.log(cost);
             console.log("\n");
