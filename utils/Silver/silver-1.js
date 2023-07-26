@@ -8,12 +8,11 @@ scraper
     .get(url)
     .then(function (tableData)
     {
-
         const silverData = tableData[0][1];
         const weight = silverData[0];
-        const value = silverData[1];
-        const currencySymbol = value.replace(/[0-9.,]+/g, '');
-        const cost = parseFloat(value.replace(/[^0-9.-]+/g, ''));
+        const price = silverData[1];
+        const currencySymbol = price.replace(/[0-9.,]+/g, '');
+        const cost = parseFloat(price.replace(/[^0-9.-]+/g, ''));
 
         console.log(weight);
         console.log(currencySymbol);

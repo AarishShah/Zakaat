@@ -9,8 +9,15 @@ scraper
     .then(function (tableData)
     {
         const silverData = tableData[0][4];
-        console.log(silverData);
+        const value = Object.entries(silverData);
+        const weight = value[0][1]
+        const price = value[1][1];
+        const currencySymbol = price.replace(/[0-9.,]+/g, '');
+        const cost = parseFloat(price.replace(/[^0-9.-]+/g, ''));
 
-        console.log(typeof (silverData)); // @KhushbooHamid - This should give you a hint.
+        console.log(weight); // we might need to parse weight as well
+        console.log(currencySymbol);
+        console.log(cost);
+        console.log("\n");
 
     });
