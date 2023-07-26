@@ -9,8 +9,10 @@ scraper
     .then(function (tableData)
     {
         const silverData = tableData[0][4];
-        console.log(silverData);
+        const Quantity=silverData.Quantity;
+        const Silver_Rate=silverData['Silver Rate'];
+        console.log(Quantity);
+        console.log(Silver_Rate);
 
-        console.log(typeof (silverData)); // @KhushbooHamid - This should give you a hint.
 
     });
