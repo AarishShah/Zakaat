@@ -35,11 +35,11 @@ int main()
     float silver = 750.0; // user input
     float savings = 0;
 
-    float g = (gold - minCOG) * 0.025;
-    float s = (silver - minCOS) * 0.025;
+    float zakatongold = gold * 0.025;
+    float zakatonsilver = silver * 0.025;
     savings = savings / 40;
     float liabilities = 0.0;
-    float zakat = g + s + savings - liabilities;
+    float zakat = zakatongold + zakatonsilver + savings - liabilities;
 
     if (gold >= minCOG)
     {
