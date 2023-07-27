@@ -1,27 +1,58 @@
-// Data source: https://www.goodreturns.in/gold-rates/united-states.html (we will use this for states in India only)
-// Documenttaion for table-scraper: https://www.npmjs.com/package/table-scraper
-// reference (ignore): https://www.npmjs.com/package/live-fuel-currency-gold-prices
+// // Data source: https://www.goodreturns.in/gold-rates/united-states.html (we will use this for states in India only)
+// // Documenttaion for table-scraper: https://www.npmjs.com/package/table-scraper
+// // reference (ignore): https://www.npmjs.com/package/live-fuel-currency-gold-prices
+
+// var scraper = require('table-scraper');
+// const location = 'united-states'; // user will enter 'united states', change that to 'united-states' for the url
+// const url = `https://www.goodreturns.in/gold-rates/${location}.html`;
+
+// scraper
+//     .get(url)
+//     .then(function (tableData)
+//     {
+//         for (let index = 0; index < 2; index++)
+//         {
+//             goldData = tableData[index]; // first ittion: 22 karat gold, second ittion: 24 karat gold
+//             // const weight = parseInt(goldData[1][0].replace(/[^0-9]+/g, '')); // 1 gram gold
+//             const purity = parseInt(goldData[0][1].replace(/[^0-9]+/g, '')); // 22/24 karat gold
+//             const currencySymbol = goldData[1][1].replace(/[0-9.,]+/g, ''); // Extracts the currency symbol only using regex
+//             const cost = parseFloat(goldData[1][1].replace(/[^0-9.-]+/g, '')); // Extracts the number only using regex
+
+//             // console.log("Gram: " + weight);
+//             console.log("Purity: " + purity); // all values are for 1 gram
+//             console.log(currencySymbol);
+//             console.log(cost);
+//             console.log("\n");
+//         }
+
+
+//     });
 
 var scraper = require('table-scraper');
-const location = 'united-states'; // user will enter 'united states', change that to 'united-states' for the url
-const url = `https://www.goodreturns.in/gold-rates/${location}.html`;
 
-scraper
-    .get(url)
-    .then(function (tableData)
-    {
-        for (let index = 0; index < 2; index++)
-        {
-            goldData = tableData[index]; // first ittion: 22 karat gold, second ittion: 24 karat gold
-            // const weight = parseInt(goldData[1][0].replace(/[^0-9]+/g, '')); // 1 gram gold
-            const purity = parseInt(goldData[0][1].replace(/[^0-9]+/g, '')); // 22/24 karat gold
-            const currencySymbol = goldData[1][1].replace(/[0-9.,]+/g, ''); // Extracts the currency symbol only using regex
-            const cost = parseFloat(goldData[1][1].replace(/[^0-9.-]+/g, '')); // Extracts the number only using regex
+// Export the function to get gold rates for a specific location
+module.exports.getGoldRates = function (location) {
+  const url = `https://www.goodreturns.in/gold-rates/${location}.html`;
 
-            // console.log("Gram: " + weight);
-            console.log("Purity: " + purity); // all values are for 1 gram
-            console.log(currencySymbol);
-            console.log(cost);
-            console.log("\n");
-        }
-    });
+  return scraper.get(url).then(function (tableData) {
+     const goldRates = [];
+
+    for (let index = 0; index < 2; index++) {
+      const goldData = tableData[index];
+      const purity = parseInt(goldData[0][1].replace(/[^0-9]+/g, ''));
+      const currencySymbol = goldData[1][1].replace(/[0-9.,]+/g, '');
+      const cost = parseFloat(goldData[1][1].replace(/[^0-9.-]+/g, ''));
+
+      const goldRate = {
+        purity: purity,
+        currencySymbol: currencySymbol,
+        cost: cost,
+      };
+
+
+      goldRates.push(goldRate);
+    }
+
+    return goldRates;
+  });
+};
