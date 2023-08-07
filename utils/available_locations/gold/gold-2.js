@@ -40,7 +40,7 @@ const Gold_Countries = `
 
 const getGold_Countries = function ()
 {
-    return Gold_Countries
+    return Gold_Countries;
 }
 
 module.exports = getGold_Countries;

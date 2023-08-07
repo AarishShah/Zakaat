@@ -64,7 +64,7 @@ const Silver_Countries = `
 
 const getSilver_Countries = function ()
 {
-  return Silver_Countries
+  return Silver_Countries;
 }
 
 module.exports = getSilver_Countries;
