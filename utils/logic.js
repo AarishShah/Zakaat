@@ -9,7 +9,8 @@ const getSilver_Countries = require('../utils/available_locations/silver/silver-
 const Silver_Countries = JSON.parse(getSilver_Countries());
 
 
-function calculateZakat(gold, silver, otherAssets, savings, liabilities, country) {
+function calculateZakat(gold, silver, otherAssets, savings, liabilities, country)
+{
     // Zakat Nisab value for gold and silver (in grams)
     const nisabGold = 85.0;
     const nisabSilver = 595.0;
@@ -17,60 +18,28 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, country
     // Zakat rate (2.5%)
     const zakatRate = 0.025;
     // Map to store current market prices of gold and silver for different countries (currency per gram)
-   
-    // const country_data = value[1][1];
-    // const newcountry = country.toLowerCase();
 
-    for (let index = 0; index < 15; index++) {
-        
+    let found = false; // this is the flag to check if the country is found
+
+    for (let index = 0; index < 32; index++) // hard coded 32 countries
+    {
         const value = Object.entries(Gold_Countries[index]);
-        // console.log(country+" "+value[1][1]);
-        if (country == value[1][1]) {
-            console.log(value[1][1]);
+        if (country == value[1][1])
+        {
+            console.log("Zakat can be calculated for " + value[1][1]);
+            found = true; // set the flag to true if country is found
+            break;
         }
-        else {
-            console.log("not found");
-        }//fix using flag
     }
+
+    if (!found) // if country is not found after looping through all countries
+    {
+        console.log("not found");
+    }
+
 
     const goldPricesPerGram = {
 
-        // check country  -> dataset
-
-
-        // Algeria: Gold_Countries[0],
-        // Australia: Gold_Countries[1],
-        // Bahrain: Gold_Countries[2],
-        // Canada: Gold_Countries[3],
-        // China: Gold_Countries[4],
-        // Brazil: Gold_Countries[5],
-        // Egypt: Gold_Countries[6],
-        // Europe: Gold_Countries[7],
-        // Ghana: Gold_Countries[8],
-        // India: Gold_Countries[9],
-        // Indonesia: Gold_Countries[10],
-        // Iran: Gold_Countries[11],
-        // Iraq: Gold_Countries[12],
-        // Jordan: Gold_Countries[13],
-        // Kuwait: Gold_Countries[14],
-        // Lebanon: Gold_Countries[15],
-        // Libya: Gold_Countries[16],
-        // Morocco: Gold_Countries[17],
-        // Oman: Gold_Countries[18],
-        // Mexico: Gold_Countries[19],
-        // Pakistan: Gold_Countries[20],
-        // Qatar: Gold_Countries[21],
-        // Russia: Gold_Countries[22],
-        // "Saudi Arabia": Gold_Countries[23],
-        // Singapore: Gold_Countries[24],
-        // "South Africa": Gold_Countries[25],
-        // "South Korea": Gold_Countries[26],
-        // Turkey: Gold_Countries[27],
-        // "United Arab Emirates": Gold_Countries[28],
-        // " United States": Gold_Countries[29],
-        // "United Kingdom": Gold_Countries[30],
-        // Uzbekistan: Gold_Countries[31],
-        // Yemen: Gold_Countries[32]
 
         // india: 4500.0, // Replace with the actual price of gold for India
         // usa: 40.0,     // Replace with the actual price of gold for USA
@@ -79,7 +48,8 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, country
     // console.log(goldPricesPerGram["Algeria"]);
 
     const goldPricesArray = Object.values(goldPricesPerGram);
-    for (let i = 0; i < goldPricesArray.length; i++) {
+    for (let i = 0; i < goldPricesArray.length; i++)
+    {
         console.log(goldPricesArray[i]);
         // console.log(goldPricesArray[0]); // Accessing the first value (Algeria)
         // console.log(goldPricesArray[1]); // Accessing the second value (Australia)
@@ -167,7 +137,8 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, country
 
     const silverPricesArray = Object.values(silverPricesPerGram);
 
-    for (let i = 0; i < silverPricesArray.length; i++) {
+    for (let i = 0; i < silverPricesArray.length; i++)
+    {
         console.log(silverPricesArray[i]);
     }
 
@@ -192,11 +163,13 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, country
     let zakatOnGoldGrams = 0.0;
     let zakatOnSilverGrams = 0.0;
 
-    if (gold >= nisabGold) {
+    if (gold >= nisabGold)
+    {
         zakatOnGoldGrams = gold * zakatRate;
     }
 
-    if (silver >= nisabSilver) {
+    if (silver >= nisabSilver)
+    {
         zakatOnSilverGrams = silver * zakatRate;
     }
 
@@ -210,9 +183,11 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, country
     // Calculate total Zakat in the respective country's currency (after deducting liabilities)
     const totalZakatCurrency = zakatOnGoldCurrency + zakatOnSilverCurrency + zakatOnSavingsCurrency;
 
-    if (totalZakatCurrency > 0.0) {
+    if (totalZakatCurrency > 0.0)
+    {
         console.log(`You must pay Zakat: ${totalZakatCurrency} ${country}`);
-    } else {
+    } else
+    {
         console.log("You don't have to pay Zakat");
     }
 }
