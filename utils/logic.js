@@ -8,15 +8,23 @@ const Gold_Countries = JSON.parse(getGold_Countries());
 const getSilver_Countries = require('../utils/available_locations/silver/silver-2');
 const Silver_Countries = JSON.parse(getSilver_Countries());
 
+const getIndian_Gold_Cities = require('../utils/available_locations/gold/gold-1');
+const Indian_Gold_Cities = JSON.parse(getIndian_Gold_Cities());
 
-function calculateZakat(gold, silver, otherAssets, savings, liabilities, country)
+const getIndian_Silver_Cities = require('../utils/available_locations/silver/silver-1')
+const Indian_Silver_Cities = JSON.parse(getIndian_Silver_Cities());
+
+// Zakat Nisab value for gold and silver (in grams)
+const nisabGold = 85.0;
+const nisabSilver = 595.0;
+
+// Zakat rate (2.5%)
+const zakatRate = 0.025;
+
+let location;
+function calculateZakat(gold, silver, otherAssets, savings, liabilities, location)
 {
-    // Zakat Nisab value for gold and silver (in grams)
-    const nisabGold = 85.0;
-    const nisabSilver = 595.0;
 
-    // Zakat rate (2.5%)
-    const zakatRate = 0.025;
     // Map to store current market prices of gold and silver for different countries (currency per gram)
 
     let found = false; // this is the flag to check if the country is found
@@ -24,7 +32,7 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, country
     for (let index = 0; index < 32; index++) // hard coded 32 countries
     {
         const value = Object.entries(Gold_Countries[index]);
-        if (country == value[1][1])
+        if (location == value[1][1])
         {
             console.log("Zakat can be calculated for " + value[1][1]);
             found = true; // set the flag to true if country is found
@@ -47,150 +55,149 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, country
     };
     // console.log(goldPricesPerGram["Algeria"]);
 
-    const goldPricesArray = Object.values(goldPricesPerGram);
-    for (let i = 0; i < goldPricesArray.length; i++)
-    {
-        console.log(goldPricesArray[i]);
-        // console.log(goldPricesArray[0]); // Accessing the first value (Algeria)
-        // console.log(goldPricesArray[1]); // Accessing the second value (Australia)
-        // // Continue accessing other values using their respective indices
+    // const goldPricesArray = Object.values(goldPricesPerGram);
+    // for (let i = 0; i < goldPricesArray.length; i++)
+    // {
+    //     console.log(goldPricesArray[i]);
+    // console.log(goldPricesArray[0]); // Accessing the first value (Algeria)
+    // console.log(goldPricesArray[1]); // Accessing the second value (Australia)
+    // // Continue accessing other values using their respective indices
 
-        // for (let i = 0; i < goldPricesArray.length; i++) {
-        //     const country = Object.keys(goldPricesPerGram)[i];
-        //     const goldPrice = goldPricesArray[i];
-        //     console.log(`${country}: ${goldPrice}`);
-    }
-
-
+    // for (let i = 0; i < goldPricesArray.length; i++) {
+    //     const country = Object.keys(goldPricesPerGram)[i];
+    //     const goldPrice = goldPricesArray[i];
+    //     console.log(`${country}: ${goldPrice}`);
 
     const silverPricesPerGram = {
-
-
-        // "Afghanistan": Silver_Countries[0],
-        // "Algeria": Silver_Countries[1],
-        // "Argentina": Silver_Countries[2],
-        // "Australia": Silver_Countries[3],
-        // "Austria": Silver_Countries[4],
-        // "Bangladesh": Silver_Countries[5],
-        // "Belgium": Silver_Countries[6],
-        // "Bhutan": Silver_Countries[7],
-        // "Brazil": Silver_Countries[8],
-        // "Canada": Silver_Countries[9],
-        // "Chile": Silver_Countries[10],
-        // "China": Silver_Countries[11],
-        // "Cuba": Silver_Countries[12],
-        // "Denmark": Silver_Countries[13],
-        // "Egypt": Silver_Countries[14],
-        // "Finland": Silver_Countries[15],
-        // "France": Silver_Countries[16],
-        // "Germany": Silver_Countries[17],
-        // "Greece": Silver_Countries[18],
-        // "Hong Kong": Silver_Countries[19],
-        // "Hungary": Silver_Countries[20],
-        // "Indonesia": Silver_Countries[21],
-        // "Iran": Silver_Countries[22],
-        // "Ireland": Silver_Countries[23],
-        // "Israel": Silver_Countries[24],
-        // "Italy": Silver_Countries[25],
-        // "Japan": Silver_Countries[26],
-        // "Jordan": Silver_Countries[27],
-        // "Maldives": Silver_Countries[28],
-        // "Mauritius": Silver_Countries[29],
-        // "Mexico": Silver_Countries[30],
-        // "Morocco": Silver_Countries[31],
-        // "Myanmar": Silver_Countries[32],
-        // "Nepal": Silver_Countries[33],
-        // "Netherlands": Silver_Countries[34],
-        // "New Zealand": Silver_Countries[35],
-        // "Nigeria": Silver_Countries[36],
-        // "Norway": Silver_Countries[37],
-        // "Pakistan": Silver_Countries[38],
-        // "Philippines": Silver_Countries[39],
-        // "Poland": Silver_Countries[40],
-        // "Portugal": Silver_Countries[41],
-        // "Romania": Silver_Countries[42],
-        // "Russia": Silver_Countries[43],
-        // "South Africa": Silver_Countries[44],
-        // "South Korea": Silver_Countries[45],
-        // "Spain": Silver_Countries[46],
-        // "Sri Lanka": Silver_Countries[47],
-        // "Sweden": Silver_Countries[48],
-        // "Switzerland": Silver_Countries[49],
-        // "Syria": Silver_Countries[50],
-        // "Thailand": Silver_Countries[51],
-        // "Turkey": Silver_Countries[52],
-        // "UK": Silver_Countries[53],
-        // "USA": Silver_Countries[54],
-        // "Vietnam": Silver_Countries[55],
-        // "Yemen": Silver_Countries[56]
-
-
-
-
-
-
-
-        // india: 70.0, // Replace with the actual price of silver for India
-        // usa: 0.8,   // Replace with the actual price of silver for USA
-        // Add more countries and corresponding prices as needed
     };
+    let flag = false;
+    for (let k = 0; k < 56; k++)
+    {  //as there are 56 countries in silverdata
+        const silverValue = Silver_Countries[k];
+        if (location == silverValue)
+        {
+            console.log("zakat can be calculted for " + silverValue);
+            flag = true;
+            break;
+        }
 
-    const silverPricesArray = Object.values(silverPricesPerGram);
-
-    for (let i = 0; i < silverPricesArray.length; i++)
+    }
+    if (flag == false)
     {
-        console.log(silverPricesArray[i]);
+        console.log("cannot find ");
     }
 
+    //~~~~~~~~~~~~~~~~~~
 
-    // Check if the country is supported and get the corresponding market prices
-    const goldPricePerGram = goldPricesPerGram[country];
-    const silverPricePerGram = silverPricesPerGram[country];
+    let flag1 = false;
 
-    if (!goldPricePerGram || !silverPricePerGram) //data set
+    for (let a = 0; a < 105; a++)
     {
-        console.log("Sorry, Zakat calculation is not supported for your country at the moment.");
-        return;
+        const GoldCites = Indian_Gold_Cities[a];
+        if (location == GoldCites)
+        {
+            console.log("can be calculted");
+            flag1 = true;
+            break;
+        }
+    }
+    if (flag1 == false)
+    {
+        console.log("cannot find");
+    }
+    //~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+    let flag2 = false;
+
+    for (let b = 0; b < 105; b++)
+    {
+        const silCities = Indian_Silver_Cities[b];
+        if (location == silCities)
+        {
+            console.log("can be calculated");
+            flag2 = true;
+            break;
+        }
+    }
+    if (flag2 == false)
+    {
+        console.log("cannot find");
     }
 
-    // Calculate total assets (including savings)
-    const totalAssets = gold + silver + otherAssets + savings;
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    // Deduct liabilities from total assets
-    const netAssets = totalAssets - liabilities;
-
-    // Calculate Zakat on gold and silver separately (in grams)
-    let zakatOnGoldGrams = 0.0;
-    let zakatOnSilverGrams = 0.0;
-
-    if (gold >= nisabGold)
-    {
-        zakatOnGoldGrams = gold * zakatRate;
-    }
-
-    if (silver >= nisabSilver)
-    {
-        zakatOnSilverGrams = silver * zakatRate;
-    }
-
-    // Convert Zakat from grams to the respective country's currency using the market prices
-    const zakatOnGoldCurrency = zakatOnGoldGrams * goldPricePerGram;
-    const zakatOnSilverCurrency = zakatOnSilverGrams * silverPricePerGram;
-
-    // Calculate Zakat on savings (2.5% of the total savings)
-    const zakatOnSavingsCurrency = savings * 0.025;
-
-    // Calculate total Zakat in the respective country's currency (after deducting liabilities)
-    const totalZakatCurrency = zakatOnGoldCurrency + zakatOnSilverCurrency + zakatOnSavingsCurrency;
-
-    if (totalZakatCurrency > 0.0)
-    {
-        console.log(`You must pay Zakat: ${totalZakatCurrency} ${country}`);
-    } else
-    {
-        console.log("You don't have to pay Zakat");
-    }
 }
+
+
+
+
+
+
+
+// india: 70.0, // Replace with the actual price of silver for India
+// usa: 0.8,   // Replace with the actual price of silver for USA
+// Add more countries and corresponding prices as needed
+// };
+
+// const silverPricesArray = Object.values(silverPricesPerGram);
+
+
+// for (let i = 0; i < silverPricesArray.length; i++)
+// {
+//     console.log(silverPricesArray[i]);
+// }
+
+
+// Check if the country is supported and get the corresponding market prices
+const goldPricePerGram = goldPricePerGram[location];
+const silverPricePerGram = silverPricePerGram[location];
+
+if (!goldPricePerGram || !silverPricePerGram) //data set
+{
+    console.log("Sorry, Zakat calculation is not supported for your country at the moment.");
+    return;
+}
+
+// Calculate total assets (including savings)
+const totalAssets = gold + silver + otherAssets + savings;
+
+// Deduct liabilities from total assets
+const netAssets = totalAssets - liabilities;
+
+// Calculate Zakat on gold and silver separately (in grams)
+let zakatOnGoldGrams = 0.0;
+let zakatOnSilverGrams = 0.0;
+
+if (gold >= nisabGold)
+{
+    zakatOnGoldGrams = gold * zakatRate;
+}
+
+if (silver >= nisabSilver)
+{
+    zakatOnSilverGrams = silver * zakatRate;
+}
+
+// Convert Zakat from grams to the respective country's currency using the market prices
+const zakatOnGoldCurrency = zakatOnGoldGrams * goldPricePerGram;
+const zakatOnSilverCurrency = zakatOnSilverGrams * silverPricePerGram;
+
+// Calculate Zakat on savings (2.5% of the total savings)
+const zakatOnSavingsCurrency = savings * 0.025;
+
+// Calculate total Zakat in the respective country's currency (after deducting liabilities)
+const totalZakatCurrency = zakatOnGoldCurrency + zakatOnSilverCurrency + zakatOnSavingsCurrency;        
+
+if (totalZakatCurrency > 0.0)
+{
+    console.log(`You must pay Zakat: ${totalZakatCurrency} ${country}`);
+} else
+{
+    console.log("You don't have to pay Zakat");
+}
+
 
 // Example usage
 calculateZakat(100, 500, 2000, 3000, 500, "India");
