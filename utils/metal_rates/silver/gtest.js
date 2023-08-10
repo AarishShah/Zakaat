@@ -20,16 +20,20 @@ const extractSilverData = (tableData) =>
     };
 }
 
-const khushi = (location) => {
-    return new Promise((resolve, reject) => {
+const khushi = (location) =>
+{
+    return new Promise((resolve, reject) =>
+    {
         const url = `https://rates.goldenchennai.com/world/silver-rate/${location}-silver-rate-today/`;
 
         scraper.get(url)
-            .then(function (tableData) {
+            .then(function (tableData)
+            {
                 const result = extractSilverData(tableData);
                 resolve(result);
             })
-            .catch(error => {
+            .catch(error =>
+            {
                 console.error("Error fetching silver data:", error);
                 reject(error);
             });
