@@ -10,6 +10,10 @@ const IndianGoldCities = JSON.parse(getIndianGoldCities());
 const getIndianSilverCities = require('../utils/available_locations/silver/silver-1')
 const IndianSilverCities = JSON.parse(getIndianSilverCities());
 
+const goldScraper = require('../utils/metal_rates/gold/gold-1'); 
+
+
+
 const nisabGold = 85.0;
 const nisabSilver = 595.0;
 const zakatRate = 0.025;
@@ -46,6 +50,20 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, locatio
     const goldPricePerGram = 4500.0; // Update for dynamic prices.
     const silverPricePerGram = 70.0; // Update for dynamic prices.
 
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+
+    const place = 'Delhi';
+
+    goldScraper.getGoldData(place)
+        .then(goldDataArray => {
+            console.log(goldDataArray);
+        })
+        .catch(error => {
+            console.error('Error12333:', error);
+        });
+
+
+
     const zakatOnGoldCurrency = getZakatInGrams(gold, nisabGold) * goldPricePerGram;
     const zakatOnSilverCurrency = getZakatInGrams(silver, nisabSilver) * silverPricePerGram;
     const zakatOnSavingsCurrency = savings * zakatRate;
@@ -60,4 +78,4 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, locatio
 }
 
 // Example usage
-calculateZakat(100, 500, 2000, 3000, 500, "India");
+calculateZakat(100, 500, 2000, 3000, 500, "Delhi");
