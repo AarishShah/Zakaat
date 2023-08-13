@@ -17,12 +17,12 @@ async function extractData(url)
     const data =
     {
         weight: dataRow.find('td').eq(8).text(),
-        rate18K: dataRow.find('td').eq(9).text()
+        rate: dataRow.find('td').eq(9).text()
     };
 
     const silverWeight = parseInt(data.weight.replace(/[^0-9.]+/g, ''));
-    const silverCurrencySymbol = data.rate18K.replace(/[0-9.,]+/g, '');
-    const silverCost = parseFloat(data.rate18K.replace(/[^0-9.]+/g, ''));
+    const silverCurrencySymbol = data.rate.replace(/[0-9.,]+/g, '');
+    const silverCost = parseFloat(data.rate.replace(/[^0-9.]+/g, ''));
 
     return {
         silverWeight,
@@ -31,3 +31,5 @@ async function extractData(url)
     };
 }
 module.exports = extractData;
+
+// do error handling

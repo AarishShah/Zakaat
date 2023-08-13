@@ -1,5 +1,4 @@
 const goldCountry  = require('./gold/world-scrapper.js');
-
 async function gold2()
 {
     const location = 'nepal';
@@ -8,8 +7,15 @@ async function gold2()
     console.log(data);
 }
 
-const silverCountry = require('./silver/silver-country-scrapper.js');
+const silverCities = require('./silver/indian-cities-scrapper.js');
+async function silver1()
+{
+    const url = `https://www.creditmantri.com/silver-rate/`;
+    const data = await silverCities(url);
+    console.log(data);
+}
 
+const silverCountry = require('./silver/world-scrapper.js');
 async function silver2()
 {
     const location = 'nepal';
@@ -19,7 +25,9 @@ async function silver2()
 }
 
 
+
 gold2();
+silver1();
 silver2();
 
 // @KhushbooHamid --- make the call asynchronous (line 22 and 23)
