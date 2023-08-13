@@ -1,5 +1,5 @@
 {
-  "name": "table",
+  "name": "zakaat",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.4.0",
     "express": "^4.18.2",
     "hbs": "^4.2.0",
     "table-scraper": "^1.0.3"
