@@ -38,3 +38,4 @@ gold2();
 silver2();
 
 // @KhushbooHamid --- make the call asynchronous (line 35 to 38)
+// before implementing this code in zakat_calculator, we need to optimised it (this code would work either way but at the cost of time)
