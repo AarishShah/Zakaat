@@ -1,14 +1,14 @@
-const getGoldCountries = require('../utils/available_locations/gold/gold-2');
-const GoldCountries = JSON.parse(getGoldCountries());
-
-const getSilverCountries = require('../utils/available_locations/silver/silver-2');
-const SilverCountries = JSON.parse(getSilverCountries());
-
-const getIndianGoldCities = require('../utils/available_locations/gold/gold-1');
+const getIndianGoldCities = require('../utils/available_locations/gold/city-list');
 const IndianGoldCities = JSON.parse(getIndianGoldCities());
 
-const getIndianSilverCities = require('../utils/available_locations/silver/silver-1')
+const getGoldCountries = require('../utils/available_locations/gold/country-list');
+const GoldCountries = JSON.parse(getGoldCountries());
+
+const getIndianSilverCities = require('../utils/available_locations/silver/city-list')
 const IndianSilverCities = JSON.parse(getIndianSilverCities());
+
+const getSilverCountries = require('../utils/available_locations/silver/country-list');
+const SilverCountries = JSON.parse(getSilverCountries());
 
 const NISAB_GOLD = 85.0;
 const NISAB_SILVER = 595.0;
@@ -68,4 +68,4 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, locatio
 }
 
 // Example usage
-calculateZakat(100, 500, 2000, 3000, 500, "India");
+calculateZakat(100, 500, 2000, 3000, 500, "Yemen");

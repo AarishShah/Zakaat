@@ -1,0 +1,3632 @@
+[
+  {
+    "city": "CHENNAI",
+    "rate22K": 5596,
+    "rate24K": 5596
+  },
+  {
+    "city": "RAJASTHAN",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "AJMER",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "ALWAR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BANSWARA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BARAN",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BARMER",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BHARATPUR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BHILWARA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BIKANER",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BUNDI",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "CHITTORGARH",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "CHURU",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "DAUSA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "DHOLPUR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "DUNGARPUR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "GANGANAGAR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "HANUMANGARH",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "JAIPUR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "JAISALMER",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "JALORE",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "JHALAWAR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "JHUNJHUNU",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "JODHPUR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "KARAULI",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "KOTA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "NAGAUR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "PALI",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "PRATAPGARH",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "RAJSAMAND",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "SAWAI MADHOPUR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "SIKAR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "SIROHI",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "TONK",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "UDAIPUR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BANGALORE",
+    "rate22K": 5585,
+    "rate24K": 5585
+  },
+  {
+    "city": "DELHI",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "DARYAGANJ",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "DEFENCE COLONY",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "KANJHAWALA",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "NEW DELHI",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "PREET VIHAR",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "RAJOURI GARDEN",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "SADAR BAZAAR",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "SAKET",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "SEELAMPUR",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "SHAHDARA",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "VASANT VIHAR",
+    "rate22K": 5863,
+    "rate24K": 5863
+  },
+  {
+    "city": "ANDAMAN AND NICOBAR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "CAR NICOBAR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "MAYABUNDER",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "PORT BLAIR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "ANDHRA PRADESH",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "ANANTAPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "CHITTOOR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "ELURU",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "GUNTUR AMARAVATHI",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "KADAPA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "KAKINADA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "KURNOOL",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "MACHILIPATNAM",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "NELLORE",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "ONGOLE",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "SRIKAKULAM",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "VISAKHAPATNAM",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "VIZIANAGARAM",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "ARUNACHAL PRADESH",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "ALONG",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "ANINI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "BASAR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "BOMDILA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "CHANGLANG",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "DAPORIJO",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "HAWAI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "ITANAGAR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "JAMIN",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KHONSA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KOLORIANG",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "LEMMI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "LIKABALI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "LONGDING",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "NAMSAI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "PANGIN",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "PASIGHAT",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "RAGA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "ROING",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "SEPPA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "TATO",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "TAWANG TOWN",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "TEZU",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "YINGKIONG",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "ZIRO",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "ASSAM",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "AMINGAON",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BARPETA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BISHWANATH CHARIALI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BONGAIGAON",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "DHEMAJI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "DHUBRI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "DIBRUGARH",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "DIPHU",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "GARAMUR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "GOALPARA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "GOLAGHAT",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "GUWAHATI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "HAFLONG",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "HAILAKANDI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "HAMREN",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "HATSINGIMARI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "HOJAI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "JORHAT",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KAJALGAON",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KARIMGANJ",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KOKRAJHAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "MANGALDOI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "MARIGAON",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "MUSHALPUR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "NAGAON",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "NALBARI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "NORTH LAKHIMPUR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SIBSAGAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SILCHAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SONARI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "TEZPUR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "TINSUKIA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "UDALGURI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BIHAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "ARARIA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "ARRAH",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "ARWAL",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "AURANGABAD",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BANKA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BEGUSARAI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BETTIAH",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BHABUA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BHAGALPUR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BIHAR SHARIF",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BUXAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "CHHAPRA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "DARBHANGA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "GAYA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "GOPALGANJ",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "HAJIPUR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "JAMUI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "JEHANABAD",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KATIHAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KHAGARIA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KISHANGANJ",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "LAKHISARAI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "MADHEPURA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "MADHUBANI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "MOTIHARI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "MUNGER",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "MUZAFFARPUR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "NAWADA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "PATNA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "PURNIA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SAHARSA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SAMASTIPUR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SASARAM",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SHEIKHPURA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SHEOHAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SITAMARHI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SIWAN",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SUPAUL",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "CHANDIGARH",
+    "rate22K": 5722,
+    "rate24K": 5722
+  },
+  {
+    "city": "CHHATTISGARH",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "AMBIKAPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BAIKUNTHPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BALOD",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BALODA BAZAR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BALRAMPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BEMETARA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BIJAPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BILASPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "DANTEWADA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "DHAMTARI",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "DURG",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "GARIABAND",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "GAURELA PENDRA MARWAHI",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "JAGDALPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "JASHPUR NAGAR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "KANKER",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "KAWARDHA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "KONDAGAON",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "KORBA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "MAHASAMUND",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "MUNGELI",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "NAILA JANJGIR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "NARAYANPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "RAIGARH",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "RAIPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "RAJNANDGAON",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "SUKMA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "SURAJPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "DAMAN AND DIU",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "DAMAN",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "DIU",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "GOA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GOA PANAJI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MARGAO",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GUJARAT",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "AHMEDABAD",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "AHWA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "AMRELI",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "ANAND",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BHARUCH",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BHAVNAGAR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BHUJ",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "BOTAD",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "CHHOTA UDEPUR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "DAHOD",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "GANDHINAGAR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "GODHRA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "HIMATNAGAR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "JAMNAGAR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "JUNAGADH",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "KHAMBHALIA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "LUNAVADA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "MEHSANA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "MODASA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "MORBI",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "NADIAD",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "NAVSARI",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "PALANPUR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "PATAN",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "PORBANDAR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "RAJKOT",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "RAJPIPLA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "SURAT",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "SURENDRANAGAR",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "VADODARA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "VALSAD",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "VERAVAL",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "VYARA",
+    "rate22K": 5776,
+    "rate24K": 5776
+  },
+  {
+    "city": "HARYANA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "AMBALA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BHIWANI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "CHARKHI DADRI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "FARIDABAD",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "FATEHABAD",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GURGAON",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "HISSAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "JHAJJAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "JIND",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KAITHAL",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KARNAL",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KURUKSHETRA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "NARNAUL",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "NUH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "PALWAL",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "PANCHKULA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "PANIPAT",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "REWARI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "ROHTAK",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SIRSA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SONIPAT",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "YAMUNA NAGAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "HIMACHAL PRADESH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "CHAMBA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "DHARAMSHALA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "HAMIRPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KEYLONG",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KULLU",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MANDI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "NAHAN",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "RECKONG PEO",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SHIMLA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SOLAN",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "UNA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "HYDERABAD",
+    "rate22K": 5608,
+    "rate24K": 5608
+  },
+  {
+    "city": "JAMMU AND KASHMIR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "ANANTNAG",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BADGAM",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BANDIPORE",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BARAMULLA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "DODA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GANDERBAL",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "JAMMU",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KATHUA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KISHTWAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KULGAM",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KUPWARA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "POONCH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "PULWAMA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "RAJOURI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "RAMBAN",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "REASI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SAMBA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SHUPIYAN",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SRINAGAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "UDHAMPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "JHARKHAND",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BOKARO",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "CHAIBASA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "CHATRA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "DALTONGANJ",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "DEOGHAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "DHANBAD",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "DUMKA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "GARHWA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "GIRIDIH",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "GODDA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "GUMLA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "HAZARIBAG",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "JAMSHEDPUR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "JAMTARA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KHUNTI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KODERMA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "LATEHAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "LOHARDAGA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "PAKUR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "RAMGARH",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "RANCHI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SAHEBGANJ",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SERAIKELA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SIMDEGA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KARNATAKA",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "BAGALKOT",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "BALLARI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "BELGAUM",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "BIDAR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "CHAMARAJANAGAR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "CHIKKABALLAPUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "CHIKMAGALUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "CHITRADURGA",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "DAVANGERE",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "DHARWAD",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "GADAG BETAGERI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "GULBARGA",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "HASSAN",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "HAVERI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "KARWAR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "KOLAR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "KOPPAL",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "MADIKERI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "MANDYA",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "MANGALURU",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "MYSURU",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "RAICHUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "RAMANAGARA",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "SHIMOGA",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "TUMAKURU",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "UDUPI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "VIJAYAPURA",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "YADGIR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "KERALA",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "ALAPPUZHA",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "KAKKANAD",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "KALPETTA",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "KANNUR",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "KASARAGOD",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "KOLLAM",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "KOTTAYAM",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "KOZHIKODE",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "MALAPPURAM",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "PAINAVU",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "PALAKKAD",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "PATHANAMTHITTA",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "THIRUVANANTHAPURAM",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "THRISSUR",
+    "rate22K": 5710,
+    "rate24K": 5710
+  },
+  {
+    "city": "LAKSHADWEEP",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KAVARATTI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "MADHYA PRADESH",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "AGAR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "ALIRAJPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "ANUPPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "ASHOK NAGAR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "BALAGHAT",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "BARWANI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "BETUL",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "BHIND",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "BHOPAL",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "BURHANPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "CHACHAURA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "CHHATARPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "CHHINDWARA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "DAMOH",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "DATIA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "DEWAS",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "DHAR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "DINDORI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "GUNA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "GWALIOR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "HARDA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "HOSHANGABAD",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "INDORE",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "JABALPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "JHABUA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "KATNI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "KHANDWA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "KHARGONE",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "MAIHAR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "MANDLA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "MANDSAUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "MORENA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "NAGDA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "NARSINGHPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "NEEMUCH",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "NIWARI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "PANNA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "RAISEN",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "RAJGARH",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "RATLAM",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "REWA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SAGAR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SATNA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SEHORE",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SEONI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SHAHDOL",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SHAJAPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SHEOPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SHIVPURI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SIDHI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "TIKAMGARH",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "UJJAIN",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "UMARIA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "VIDISHA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "WAIDHAN",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "MAHARASHTRA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "AHMEDNAGAR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "AKOLA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "ALIBAG",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "AMRAVATI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "BANDRA EAST",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "BEED",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "BHANDARA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "BULDHANA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "CHANDRAPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "DHULE",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "GADCHIROLI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "GONDIA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "HINGOLI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "JALGAON",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "JALNA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "KOLHAPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "LATUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "NAGPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "NANDED",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "NANDURBAR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "NASHIK",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "OROS",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "OSMANABAD",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "PALGHAR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "PARBHANI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "PUNE",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "RATNAGIRI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SANGLI",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SATARA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "SOLAPUR",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "THANE",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "WARDHA",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "WASHIM",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "YAVATMAL",
+    "rate22K": 5742,
+    "rate24K": 5742
+  },
+  {
+    "city": "MANIPUR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "BISHNUPUR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "CHANDEL",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "CHURACHANDPUR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "IMPHAL",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "JIRIBAM",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KAKCHING",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KAMJONG",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KANGPOKPI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "NONEY LONGMAI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "PHERZAWL",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "POROMPAT",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "SENAPATI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "TAMENGLONG",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "TENGNOUPAL",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "THOUBAL",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "UKHRUL",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "MEGHALAYA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "AMPATI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "BAGHMARA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "JOWAI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KHLIEHRIAT",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "MAWKYRWAT",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "NONGPOH",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "NONGSTOIN",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "RESUBELPARA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "SHILLONG",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "TURA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "WILLIAMNAGAR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "MIZORAM",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "AIZAWL",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "CHAMPHAI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KOLASIB",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "LAWNGTLAI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "LUNGLEI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "MAMIT",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "SAIHA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "SERCHHIP",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "MUMBAI",
+    "rate22K": 5846,
+    "rate24K": 5846
+  },
+  {
+    "city": "NAGALAND",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "DIMAPUR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KIPHIRE",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KOHIMA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "LONGLENG",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "MOKOKCHUNG",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "MON",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "NOKLAK",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "PEREN",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "PHEK",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "TUENSANG",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "WOKHA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "ZUNHEBOTO",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "ODISHA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "ANGUL",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BALANGIR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BALASORE",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BARGARH",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BARIPADA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BHADRAK",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BHAWANIPATNA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BHUBANESWAR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "BOUDH",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "CHHATRAPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "CUTTACK",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "DEBAGARH",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "DHENKANAL",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "JAGATSINGHPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "JHARSUGUDA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "KENDRAPARA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "KENDUJHAR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "KORAPUT",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "MALKANGIRI",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "NABARANGPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "NAYAGARH",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "NUAPADA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "PANIKOILI",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "PARALAKHEMUNDI",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "PHULBANI",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "PURI",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "RAYAGADA",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "SAMBALPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "SUBARNAPUR",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "SUNDARGARH",
+    "rate22K": 5515,
+    "rate24K": 5515
+  },
+  {
+    "city": "PUDUCHERRY",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KARAIKAL",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "MAHE",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "YANAM",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "PUNJAB",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "AMRITSAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BARNALA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BATHINDA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "FARIDKOT",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "FATEHGARH SAHIB",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "FAZILKA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "FIROZPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GURDASPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "HOSHIARPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "JALANDHAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KAPURTHALA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "LUDHIANA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MANSA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MOGA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MOHALI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "NAWANSHAHR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "PATHANKOT",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "PATIALA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "RUPNAGAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SANGRUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SRI MUKTSAR SAHIB",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "TARN TARAN SAHIB",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SIKKIM",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "GANGTOK",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "GEYZING",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "MANGAN",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "NAMCHI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "TAMIL NADU",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "ARIYALUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "CHENGALPATTU",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "COIMBATORE",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "CUDDALORE",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "DHARMAPURI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "DINDIGUL",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "ERODE",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "KALLAKURICHI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "KANCHIPURAM",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "KARUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "KRISHNAGIRI HOSUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "MADURAI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "MAYILADUTHURAI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "NAGAPATTINAM",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "NAGERCOIL",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "NAMAKKAL",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "OOTY",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "PERAMBALUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "PUDUKKOTTAI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "RAMANATHAPURAM",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "RANIPET",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "SALEM",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "SIVAGANGA",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "TENKASI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "THANJAVUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "THENI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "THOOTHUKUDI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "TIRUCHIRAPPALLI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "TIRUNELVELI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "TIRUPATTUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "TIRUPUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "TIRUVALLUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "TIRUVANNAAMALAI",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "TIRUVARUR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "VELLORE",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "VILUPPURAM",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "VIRUDHUNAGAR",
+    "rate22K": 5525,
+    "rate24K": 5525
+  },
+  {
+    "city": "TRIPURA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "AGARTALA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "AMBASSA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "BELONIA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "BISHRAMGANJ",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "DHARMANAGAR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KAILASHAHAR",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "KHOWAI",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "UDAIPUR TRIPURA",
+    "rate22K": 5687,
+    "rate24K": 5687
+  },
+  {
+    "city": "UTTAR PRADESH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "AGRA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "AKBARPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "ALIGARH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "ALLAHABAD",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "AMROHA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "AURAIYA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "AZAMGARH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BAGHPAT",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BAHRAICH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BALLIA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BANDA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BARABANKI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BAREILLY",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BASTI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BIJNOR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BUDAUN",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BULANDSHAHR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "CHANDAULI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "DEORIA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "ETAH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "ETAWAH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "FAIZABAD",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "FATEHGARH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "FATEHPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "FIROZABAD",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GAURIGANJ",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GHAZIABAD",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GHAZIPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GONDA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GORAKHPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GYANPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "HAPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "HARDOI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "HATHRAS",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "JAUNPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "JHANSI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KANNAUJ",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KANPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KARWI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KASGANJ",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "KHALILABAD",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "LAKHIMPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "LALITPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "LUCKNOW",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MAHARAJGANJ",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MAHOBA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MAINPURI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MANJHANPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MATHURA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MAU",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MEERUT",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MIRZAPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MORADABAD",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "MUZAFFARNAGAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "NAUGARH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "NOIDA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "ORAI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "PADRAUNA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "PILIBHIT",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "RAEBARELI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "RAMPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "ROBERTSGANJ",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SAHARANPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SAMBHAL",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SHAHJAHANPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SHAMLI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SHRAVASTI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SITAPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "SULTANPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "UNNAO",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "VARANASI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "UTTARAKHAND",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "ALMORA",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "BAGESHWAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "CHAMPAWAT",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "DEHRADUN",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "GOPESHWAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "HARIDWAR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "NAINITAL",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "NEW TEHRI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "PAURI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "PITHORAGARH",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "RUDRAPRAYAG",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "RUDRAPUR",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "UTTARKASHI",
+    "rate22K": 5682,
+    "rate24K": 5682
+  },
+  {
+    "city": "WEST BENGAL",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "ALIPORE",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "ALIPURDUAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "ASANSOL",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BAHARAMPUR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BALURGHAT",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BANKURA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BARASAT",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "BARDHAMAN",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "CHINSURAH",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "COOCH BEHAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "DARJEELING",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "ENGLISH BAZAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "HOWRAH",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "JALPAIGURI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "JHARGRAM",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KALIMPONG",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KOLKATA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "KRISHNANAGAR",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "MIDNAPORE",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "PURULIA",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "RAIGANJ",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "SURI",
+    "rate22K": 5672,
+    "rate24K": 5672
+  },
+  {
+    "city": "TAMLUK",
+    "rate22K": 5672,
+    "rate24K": 5672
+  }
+]
