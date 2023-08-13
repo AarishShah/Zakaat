@@ -32,9 +32,9 @@ async function silver2()
     console.log(data);
 }
 
-gold1();
-// gold2();
-// silver1();
-// silver2();
+// gold1(); // this function excutes in 243 seconds, don't run it unless necessary
+gold2();
+// silver1(); // this function also takes a lot of time, don't run it unless necessary
+silver2();
 
-// @KhushbooHamid --- make the call asynchronous (line 22 and 23)
+// @KhushbooHamid --- make the call asynchronous (line 35 to 38)

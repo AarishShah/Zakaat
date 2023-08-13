@@ -20,8 +20,8 @@ async function extractData(url)
     const dataRow = $('tr');
     let results = [];
 
-    for (let index = 0; index < 30; index += 5) // test for small data
-    // for (let index = 0; index < 3630; index += 5) // 3630
+    // for (let index = 0; index < 30; index += 5) // test for small data
+    for (let index = 0; index < 3630; index += 5) // 3630
     {
 
         const city = dataRow.find('td').eq(index).text();
