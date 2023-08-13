@@ -1,3 +1,11 @@
+const goldCities = require('./gold/indian-cities-scrapper.js');
+async function gold1()
+{
+    const url = `https://www.creditmantri.com/gold-rate/`;
+    const data = await goldCities(url);
+    console.log(data);
+}
+
 const goldCountry  = require('./gold/world-scrapper.js');
 async function gold2()
 {
@@ -24,10 +32,9 @@ async function silver2()
     console.log(data);
 }
 
-
-
-gold2();
-silver1();
-silver2();
+gold1();
+// gold2();
+// silver1();
+// silver2();
 
 // @KhushbooHamid --- make the call asynchronous (line 22 and 23)
