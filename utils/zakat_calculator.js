@@ -9,13 +9,24 @@ const getIndianSilverCities = require('../utils/metal_rates/silver/json-data/ind
 const getSilverCountries = require('../utils/available_locations/silver/country-list');
 const SilverCountries = JSON.parse(getSilverCountries());
 
+const pineapple= require('../utils/available_locations/gold/country-list.js')
+const apple = JSON.parse(pineapple());
+
+
+
 const NISAB_GOLD = 85.0;
 const NISAB_SILVER = 595.0;
 const ZAKAT_RATE = 0.025;
 
 function isCountrySupported(location, countries)
 {
-    return countries.some(countryData => location === Object.entries(countryData)[1][1]);
+    // return countries.some(countryData => location === Object.entries(countryData)[1][1]);
+    for(let i=0;i<apple.length;i++){
+        if(apple[i] === location){
+            return true;
+        }
+    }
+    // console.log(apple[0]);
 }
 
 function isCitySupported(location, cities)
@@ -73,15 +84,15 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, locatio
     // Note: Assuming a static price per gram for gold and silver.
     // Update this when prices are fetched dynamically.
     if(purity === 22) {
-     goldPricePerGram = goldCityData[1]; // Update for dynamic prices.
+     goldPricePerGram = goldCityData[1]; 
     } else if(purity === 24) {
-         goldPricePerGram = goldCityData[2]; // Update for dynamic prices.
+         goldPricePerGram = goldCityData[2]; 
     }else{
         console.log("Please enter the purity of gold as 22 or 24");
     }
 
 
-    silverPricePerGram = silverCityData[1] // Update for dynamic prices.
+    silverPricePerGram = silverCityData[1] 
 
     const zakatOnGoldCurrency = getZakatInGrams(gold, NISAB_GOLD) * goldPricePerGram;
     const zakatOnSilverCurrency = getZakatInGrams(silver, NISAB_SILVER) * silverPricePerGram;
