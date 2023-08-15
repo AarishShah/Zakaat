@@ -43,7 +43,7 @@ async function extractData()
         fs.mkdirSync(dir, { recursive: true });
     }
 
-    fs.writeFileSync(dir + '/indian-world-data.json', JSON.stringify(results, null, 2), 'utf-8');
+    fs.writeFileSync(dir + '/world-data.json', JSON.stringify(results, null, 2), 'utf-8');
 
     return results;
 }
