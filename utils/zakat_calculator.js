@@ -9,8 +9,17 @@ const getIndianSilverCities = require('../utils/metal_rates/silver/json-data/ind
 const getSilverCountries = require('../utils/available_locations/silver/country-list');
 const SilverCountries = JSON.parse(getSilverCountries());
 
-const pineapple= require('../utils/available_locations/gold/country-list.js')
-const apple = JSON.parse(pineapple());
+
+const { isCitySupportedGold, isCountrySupportedGold } = require('../utils/available_locations/gold/is-available.js');
+
+isCitySupportedGold('CHENNAI');
+isCountrySupportedGold('Yemen');
+
+const { isCitySupportedSilver, isCountrySupportedSilver } = require('../utils/available_locations/silver/is-available.js');
+
+isCitySupportedSilver('CHENNAI');
+isCountrySupportedSilver('Yemen');
+
 
 
 
@@ -18,37 +27,24 @@ const NISAB_GOLD = 85.0;
 const NISAB_SILVER = 595.0;
 const ZAKAT_RATE = 0.025;
 
-function isCountrySupported(location, countries)
-{
-    // return countries.some(countryData => location === Object.entries(countryData)[1][1]);
-    for(let i=0;i<apple.length;i++){
-        if(apple[i] === location){
-            return true;
-        }
-    }
-    // console.log(apple[0]);
-}
 
-function isCitySupported(location, cities)
-{
-    return cities.includes(location);
-}
 
-function getZakatInGrams(amount, nisab)
-{
-    if (amount >= nisab)
-    {
+// function isCitySupported(location) {
+//     return cities.includes(location);
+// }
+
+function getZakatInGrams(amount, nisab) {
+    if (amount >= nisab) {
         return amount * ZAKAT_RATE;
     }
     return 0;
 }
 let goldCityData = [];
-let silverCityData=[];
+let silverCityData = [];
 let goldPricePerGram = 0;
-let silverPricePerGram =0;
-function calculateZakat(gold, silver, otherAssets, savings, liabilities, location,purity)
-{
-    // if (!isCountrySupported(location, GoldCountries) &&
+let silverPricePerGram = 0;
+function calculateZakat(gold, silver, otherAssets, savings, liabilities, location, purity) {
+    // if (!isCountrySupported(location) &&
     //     !isCountrySupported(location, SilverCountries) &&
     //     !isCitySupported(location, IndianGoldCities) &&
     //     !isCitySupported(location, IndianSilverCities))
@@ -59,22 +55,22 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, locatio
 
     //for indian gold cities
 
-    for(let i = 0; i < IndianGoldCities.length; i++) {
-        if(IndianGoldCities[i].city === location) {
-           
+    for (let i = 0; i < IndianGoldCities.length; i++) {
+        if (IndianGoldCities[i].city === location) {
+
             goldCityData = [IndianGoldCities[i].city, IndianGoldCities[i].rate22K, IndianGoldCities[i].rate24K];
-    
-            break; 
+
+            break;
         }
     }
 
     //for indian silver cities
 
-    for(let i = 0; i < getIndianSilverCities.length; i++) {
-        if(getIndianSilverCities[i].city === location) {
-           
-             silverCityData = [getIndianSilverCities[i].city, getIndianSilverCities[i].rate];
-            break; 
+    for (let i = 0; i < getIndianSilverCities.length; i++) {
+        if (getIndianSilverCities[i].city === location) {
+
+            silverCityData = [getIndianSilverCities[i].city, getIndianSilverCities[i].rate];
+            break;
         }
     }
 
@@ -83,16 +79,16 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, locatio
 
     // Note: Assuming a static price per gram for gold and silver.
     // Update this when prices are fetched dynamically.
-    if(purity === 22) {
-     goldPricePerGram = goldCityData[1]; 
-    } else if(purity === 24) {
-         goldPricePerGram = goldCityData[2]; 
-    }else{
+    if (purity === 22) {
+        goldPricePerGram = goldCityData[1];
+    } else if (purity === 24) {
+        goldPricePerGram = goldCityData[2];
+    } else {
         console.log("Please enter the purity of gold as 22 or 24");
     }
 
 
-    silverPricePerGram = silverCityData[1] 
+    silverPricePerGram = silverCityData[1]
 
     const zakatOnGoldCurrency = getZakatInGrams(gold, NISAB_GOLD) * goldPricePerGram;
     const zakatOnSilverCurrency = getZakatInGrams(silver, NISAB_SILVER) * silverPricePerGram;
@@ -102,14 +98,12 @@ function calculateZakat(gold, silver, otherAssets, savings, liabilities, locatio
 
 
 
-    if (totalZakatCurrency > 0)
-    {
+    if (totalZakatCurrency > 0) {
         console.log(`You must pay Zakat: ${totalZakatCurrency} in your ${location} currency`);
-    } else 
-    {
+    } else {
         console.log("You don't have to pay Zakat");
     }
 }
 
 // Example usage
-calculateZakat(100, 500, 2000, 3000, 500, "CHENNAI",22);
+calculateZakat(100, 500, 2000, 3000, 500, "CHENNAI", 22);
