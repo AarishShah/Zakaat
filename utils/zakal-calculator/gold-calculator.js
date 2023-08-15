@@ -3,7 +3,7 @@ const IndianGoldCities = require('../metal_rates/gold/json-data/indian-cities-da
 const GoldCountries = require('../metal_rates/gold/json-data/world-data.json');
 
 
-function costOfGold(location, purity, weight)
+function goldCalculator(location, purity, weight)
 {
     location = location.toLowerCase();
     // Define the price function for gold based on location and purity
@@ -68,4 +68,4 @@ function costOfGold(location, purity, weight)
     return cost;
 }
 
-module.exports = costOfGold;
+module.exports = goldCalculator;
