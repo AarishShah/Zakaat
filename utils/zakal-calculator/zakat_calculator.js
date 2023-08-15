@@ -1,22 +1,22 @@
-const IndianGoldCities = require('../utils/metal_rates/gold/json-data/indian-cities-data.json');
+const IndianGoldCities = require('../metal_rates/gold/json-data/indian-cities-data.json');
 
 // const getGoldCountries = require('../utils/available_locations/gold/country-list');
 // const GoldCountries = JSON.parse(getGoldCountries());
 
-const getIndianSilverCities = require('../utils/metal_rates/silver/json-data/indian-cities-data.json');
+const getIndianSilverCities = require('../metal_rates/silver/json-data/indian-cities-data.json');
 
 
 // const getSilverCountries = require('../utils/available_locations/silver/country-list');
 // const SilverCountries = JSON.parse(getSilverCountries());
 
-const countriesS = require('../utils/metal_rates/silver/json-data/world-data.json');
+const countriesS = require('../metal_rates/silver/json-data/world-data.json');
 
-const countriesG = require('../utils/metal_rates/gold/json-data/world-data.json');
+const countriesG = require('../metal_rates/gold/json-data/world-data.json');
 
 
-const { isCitySupportedGold, isCountrySupportedGold } = require('../utils/available_locations/gold/is-available.js');
+const { isCitySupportedGold, isCountrySupportedGold } = require('../available_locations/gold/is-available.js');
 
-const { isCitySupportedSilver, isCountrySupportedSilver } = require('../utils/available_locations/silver/is-available.js');
+const { isCitySupportedSilver, isCountrySupportedSilver } = require('../available_locations/silver/is-available.js');
 
 const NISAB_GOLD = 85.0;
 const NISAB_SILVER = 595.0;

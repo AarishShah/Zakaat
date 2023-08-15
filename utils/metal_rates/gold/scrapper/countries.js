@@ -1,6 +1,6 @@
 // Data source: https://rates.goldenchennai.com/world/gold-rate/nepal-gold-rate-today/ (we will use this for countries) // scrapping data from this site is allowed
 
-const goldCountryList = require('../../available_locations/gold/country-list');
+const goldCountryList = require('../../../available_locations/gold/country-list');
 const goldCountryListObj = JSON.parse(goldCountryList())
 const fs = require('fs');
 

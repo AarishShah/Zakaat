@@ -1,4 +1,5 @@
-const goldCities = require('./gold/indian-cities-scrapper.js');
+const goldCities = require('./gold/scrapper/indian-cities.js');
+const gth = require('./silver/scrapper/countries.js');
 async function gold1()
 {
     const url = `https://www.creditmantri.com/gold-rate/`;
@@ -6,14 +7,14 @@ async function gold1()
     console.log(data);
 }
 
-const goldCountry = require('./gold/world-scrapper.js');
+const goldCountry = require('./gold/scrapper/countries.js');
 async function gold2()
 {
     const data = await goldCountry();
     console.log(data);
 }
 
-const silverCities = require('./silver/indian-cities-scrapper.js');
+const silverCities = require('./silver/scrapper/indian-cities.js');
 async function silver1()
 {
     const url = `https://www.creditmantri.com/silver-rate/`;
@@ -21,7 +22,7 @@ async function silver1()
     console.log(data);
 }
 
-const silverCountry = require('./silver/world-scrapper');
+const silverCountry = require('./silver/scrapper/countries.js');
 async function silver2()
 {
     const data = await silverCountry();
