@@ -6,12 +6,10 @@ async function gold1()
     console.log(data);
 }
 
-const goldCountry  = require('./gold/world-scrapper.js');
+const goldCountry = require('./gold/world-scrapper.js');
 async function gold2()
 {
-    const location = 'nepal';
-    const url = `https://rates.goldenchennai.com/world/gold-rate/${location}-gold-rate-today/`;
-    const data = await goldCountry(url);
+    const data = await goldCountry();
     console.log(data);
 }
 
