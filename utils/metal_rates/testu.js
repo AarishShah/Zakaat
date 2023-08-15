@@ -1,6 +1,6 @@
 // Data source: https://rates.goldenchennai.com/world/silver-rate/nepal-silver-rate-today/ (we will use this for countries) // scrapping data from this site is allowed
 
-const silverCountryList = require('../../available_locations/silver/country-list');
+const silverCountryList = require('../available_locations/silver/country-list');
 const silverCountryListObj = JSON.parse(silverCountryList())
 const fs = require('fs');
 
@@ -19,9 +19,9 @@ async function extractData()
     let results = [];
 
     // for (let index = 0; index < 2; index++) // test for small data
-    for (let index = 0; index < 57; index++)
+    for (let index = 0; index < silverCountryList.length; index++)
     {
-        location = silverCountryListObj[index].replace(/\s/g, '-')
+        location = silverCountryListObj[index]
         const url = `https://rates.goldenchennai.com/world/silver-rate/${location}-silver-rate-today/`
 
         const $ = await fetchData(url);
@@ -33,7 +33,7 @@ async function extractData()
         const silverCurrencySymbol = rate.replace(/[0-9.,]+/g, '');
         const silverCost = parseFloat(rate.replace(/[^0-9.]+/g, ''));
 
-        results.push({ country: country, currency: silverCurrencySymbol, rate: silverCost });
+        results.push({ country: country, currency: silverCurrencySymbol,rate: silverCost });
 
     }
 

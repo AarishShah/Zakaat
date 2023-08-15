@@ -23,19 +23,17 @@ async function silver1()
     console.log(data);
 }
 
-const silverCountry = require('./silver/world-scrapper.js');
+const silverCountry = require('./silver/world-scrapper');
 async function silver2()
 {
-    const location = 'nepal';
-    const url = `https://rates.goldenchennai.com/world/silver-rate/${location}-silver-rate-today/`;
-    const data = await silverCountry(url);
+    const data = await silverCountry();
     console.log(data);
 }
 
-// gold1(); // this function excutes in 243 seconds, don't run it unless necessary
+gold1(); // this function excutes in 243 seconds, don't run it unless necessary
 gold2();
-// silver1(); // this function also takes a lot of time, don't run it unless necessary
-silver2();
+silver1(); // this function also takes a lot of time, don't run it unless necessary
+silver2(); // this function takes arounnd 1 min.
 
 // @KhushbooHamid --- make the call asynchronous (line 35 to 38)
 // before implementing this code in zakat_calculator, we need to optimised it (this code would work either way but at the cost of time)
