@@ -1,6 +1,53 @@
-function silver(location, purity, weight)
+const { isCitySupportedSilver, isCountrySupportedSilver } = require('../available_locations/silver/is-available.js');
+const IndianSilverCities = require('../metal_rates/silver/json-data/indian-cities-data.json');
+const SilverCountries = require('../metal_rates/silver/json-data/world-data.json');
+
+function silverCalculator(location, weight)
 {
-    // check if location is supported
-    // check if purity is supported, if location is a city then supported values are 22 and 24, if it is a country then supported values are 18, 22, 24
-    // cost of gold wil be equal to weight * price function
+    location = location.toLowerCase();
+   
+    function price(location)
+    {
+        if (isCitySupportedSilver(location))
+        {
+            let rate;
+
+            IndianSilverCities.find(element =>
+            {
+                if (element.city.toLowerCase() === location)
+                {
+                    rate = element.rate;
+                }
+            });
+
+            return rate;
+
+        } else
+        {
+            let rate;
+
+            SilverCountries.find(element =>
+            {
+                if (element.country.toLowerCase() === location)
+                {
+                    rate = element.rate;
+                }
+            });
+
+            return rate;
+        }
+
+    }
+
+    // Check if location is supported
+    if (!isCitySupportedSilver(location) && !isCountrySupportedSilver(location))
+    {
+        throw new Error('Unsupported location');
+    }
+
+    // Calculate the cost of gold
+    const cost = weight * price(location);
+    return cost;
 }
+
+module.exports = silverCalculator;

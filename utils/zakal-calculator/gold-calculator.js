@@ -6,6 +6,7 @@ const GoldCountries = require('../metal_rates/gold/json-data/world-data.json');
 function goldCalculator(location, purity, weight)
 {
     location = location.toLowerCase();
+    
     // Define the price function for gold based on location and purity
     function price(location, purity)
     {
