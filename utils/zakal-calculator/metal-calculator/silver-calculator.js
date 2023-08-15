@@ -1,6 +1,6 @@
-const { isCitySupportedSilver, isCountrySupportedSilver } = require('../available_locations/silver/is-available.js');
-const IndianSilverCities = require('../metal_rates/silver/json-data/indian-cities-data.json');
-const SilverCountries = require('../metal_rates/silver/json-data/world-data.json');
+const { isCitySupportedSilver, isCountrySupportedSilver } = require('../../available_locations/silver/is-available.js');
+const IndianSilverCities = require('../../metal_rates/silver/json-data/indian-cities-data.json');
+const SilverCountries = require('../../metal_rates/silver/json-data/world-data.json');
 
 function silverCalculator(location, weight)
 {

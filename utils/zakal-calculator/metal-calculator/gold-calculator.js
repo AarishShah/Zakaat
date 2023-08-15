@@ -1,6 +1,6 @@
-const { isCitySupportedGold, isCountrySupportedGold } = require('../available_locations/gold/is-available.js');
-const IndianGoldCities = require('../metal_rates/gold/json-data/indian-cities-data.json');
-const GoldCountries = require('../metal_rates/gold/json-data/world-data.json');
+const { isCitySupportedGold, isCountrySupportedGold } = require('../../available_locations/gold/is-available.js');
+const IndianGoldCities = require('../../metal_rates/gold/json-data/indian-cities-data.json');
+const GoldCountries = require('../../metal_rates/gold/json-data/world-data.json');
 
 
 function goldCalculator(location, purity, weight)
