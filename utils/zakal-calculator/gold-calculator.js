@@ -68,4 +68,4 @@ function costOfGold(location, purity, weight)
     return cost;
 }
 
-console.log(costOfGold('chennai', 22, 10)); // Expected output: 40000
+module.exports = costOfGold;
