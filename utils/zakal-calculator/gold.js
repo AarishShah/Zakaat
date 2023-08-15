@@ -16,7 +16,7 @@ function costOfGold(location, purity, weight)
             let rate22K;
             let rate24K;
 
-            IndianGoldCities.forEach(element =>
+            IndianGoldCities.find(element =>
             {
                 if (element.city.toLowerCase() === location)
                 {
@@ -33,7 +33,7 @@ function costOfGold(location, purity, weight)
             let rate22K;
             let rate24K;
 
-            GoldCountries.forEach(element =>
+            GoldCountries.find(element =>
             {
                 if (element.country.toLowerCase() === location)
                 {
@@ -68,4 +68,4 @@ function costOfGold(location, purity, weight)
     return cost;
 }
 
-console.log(costOfGold('yEmen', 18, 10)); // Expected output: 40000
+console.log(costOfGold('chennai', 22, 10)); // Expected output: 40000
