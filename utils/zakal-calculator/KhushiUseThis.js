@@ -8,10 +8,10 @@ const NISAB_GOLD = 85.0;
 const NISAB_SILVER = 595.0;
 const ZAKAT_RATE = 0.025;
 
-const zakat = (location, purity, weight, savings) =>
+const zakat = (locationForGold, purity, weightOfGold, locationForSilver, weightOfSilver, savings) =>
 {
-    const goldPrice = goldCalculator(location, purity, weight); // calculates the price of gold
-    const silverPrice = silverCalculator(location, weight); // calculates the price of silver
+    const goldPrice = goldCalculator(locationForGold, purity, weightOfGold); // calculates the price of gold
+    const silverPrice = silverCalculator(locationForSilver, weightOfSilver); // calculates the price of silver
 
     const goldNisab = NISAB_GOLD * goldPrice;
     const silverNisab = NISAB_SILVER * silverPrice;
@@ -31,4 +31,4 @@ const zakat = (location, purity, weight, savings) =>
     }
 }
 
-console.log(zakat('chennai', 22, 0.001, 0)); // the parameters of zakat are location, purity, weight
+console.log(zakat('chennai', 22, 10, 'Yemen', 20, 0)); // the parameters of zakat are location, purity, weightOfGold, weightOfSilver, savings
