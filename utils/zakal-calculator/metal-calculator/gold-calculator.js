@@ -68,5 +68,5 @@ function goldCalculator(location, purity, weight)
     const cost = weight * price(location, purity);
     return cost;
 }
-
+// goldCalculator('mumbai', 22, 1000);
 module.exports = goldCalculator;

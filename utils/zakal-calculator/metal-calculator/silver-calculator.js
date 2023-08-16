@@ -49,5 +49,6 @@ function silverCalculator(location, weight)
     const cost = weight * price(location);
     return cost;
 }
+// silverCalculator('mumbai', 1000);
 
 module.exports = silverCalculator;
