@@ -1,67 +1,61 @@
 const goldCalculator = require('./metal-calculator/gold-calculator');
-// // console.log(goldCalculator('chennai', 22, 10)); // the parameters of goldCalculator are location, purity, weight
-
 const silverCalculator = require('./metal-calculator/silver-calculator');
-// // console.log(silverCalculator('YEmen', 10)); // the parameters of silverCalculator are location, weight
 
+// Constants
 const NISAB_GOLD = 85.0;
 const NISAB_SILVER = 595.0;
 const ZAKAT_RATE = 0.025;
-//nisaab value in monetary form
-const price_NISABgold=goldCalculator('chennai', 24, NISAB_GOLD);
-const price_NISABsilver=silverCalculator('Yemen', NISAB_SILVER);
-// console.log(price_NISABgold);
-// console.log(price_NISABsilver);
 
+// Gold
+const locationForGold = 'chennai'; // fetch from user
+const purity = 24; // fetch from user
+const weightOfGold = 1000; // fetch from user
 
-const locationForGold = 'chennai';
-const purity = 22;
-const weightOfGold = 1000;
-const locationForSilver = 'chennai';
-const weightOfSilver = 20000;
-const savings = 2000;
+// Silver
+const locationForSilver = 'chennai'; // fetch from user
+const weightOfSilver = 1000; // fetch from user
 
+// Savings
+const savings = 1000; // fetch from user
+const savingsLocation = 'chennai'; // fetch from user
 
-const goldPrice = goldCalculator(locationForGold, purity, weightOfGold); // calculates the price of gold user has got(weight entered by user * price of gold in that location)
-const silverPrice = silverCalculator(locationForSilver, weightOfSilver); // calculates the price of silver
+// Niab for savings
+const priceOfNisabSavingsGold = goldCalculator(savingsLocation, 24, NISAB_GOLD);
+const priceOfNisabSavingsSilver = goldCalculator(savingsLocation, NISAB_SILVER);
 
-// function getZakat(goldPrice, silverPrice,price_NISABgold, price_NISABsilver)
-// {
-//     if (goldPrice > price_NISABgold || silverPrice > price_NISABsilver)
-//     {
-//         return (goldPrice+silverPrice) * ZAKAT_RATE;
-//     }
-//     return 0;
-// }
-// console.log(getZakat(goldPrice, silverPrice,price_NISABgold, price_NISABsilver));
+// Nisab for metals
+const priceOfNisabGold = goldCalculator(locationForGold, 24, NISAB_GOLD); // for the purest value
+const priceOfNisabSilver = silverCalculator(locationForSilver, NISAB_SILVER);
 
+// Price of metals - calculated
+const goldPrice = goldCalculator(locationForGold, purity, weightOfGold);
+const silverPrice = silverCalculator(locationForSilver, weightOfSilver);
 
-if (goldPrice > price_NISABgold || silverPrice > price_NISABsilver)
+// To calculate zakat for metals and saving in that location
+function zakat(goldPrice1, silverPrice2, priceOfNISABGold3, priceOfNISABSilver4, priceOfNisabSavingsGold5, priceOfNisabSavingsSilver6, savings7)
 {
-    console.log((goldPrice+silverPrice) * ZAKAT_RATE);
+    const totalAboveNisab = 0;
+
+    // Check if metals are above Nisab
+    if (goldPrice1 > priceOfNISABGold3 || silverPrice2 > priceOfNISABSilver4)
+    {
+        totalAboveNisab += goldPrice1 + silverPrice2;
+    }
+
+    // Check if savings are above Nisab
+    if (savings7 > priceOfNisabSavingsGold5 || savings7 > priceOfNisabSavingsSilver6)
+    {
+        totalAboveNisab += savings7;
+    }
+
+    // If neither metals nor savings are above Nisab, return 0
+    if (totalAboveNisab == 0)
+    {
+        return 0;
+    }
+
+    return totalAboveNisab * ZAKAT_RATE;
+
 }
-// {
 
-
-    // const goldZakat = ZAKAT_RATE * goldPrice;//zakat user has to pay
-    // const silverZakat = ZAKAT_RATE * silverPrice;
-    // const savingsZakat = ZAKAT_RATE * savings;
-
-    // const totalWealth = goldZakat + silverZakat + savingsZakat;
-
-   
-
-
-//     // is the totalWealth greater than NISAB_GOLD or NISAB_SILVER, then zakat is applicable else not
-//     if (totalWealth < NISAB_GOLD || totalWealth < NISAB_SILVER)
-//     {
-//         return "You don't need to pay zakat";
-//     }
-//     else
-//     {
-//         const zakatAmount = totalWealth * ZAKAT_RATE;
-//         return zakatAmount;
-//     }
-// }
-
-// // console.log(zakat('chennai', 22, 10, 'Yemen', 20, 0)); // the parameters of zakat are location, purity, weightOfGold, weightOfSilver, savings
+console.log(zakat(goldPrice, silverPrice, priceOfNisabGold, priceOfNisabSilver, priceOfNisabSavingsGold, priceOfNisabSavingsSilver, savings));
