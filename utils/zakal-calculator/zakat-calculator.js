@@ -19,9 +19,9 @@ const weightOfSilver = 1000; // fetch from user
 const savings = 1000; // fetch from user
 const savingsLocation = 'chennai'; // fetch from user
 
-// Niab for savings
+// Nisab for savings
 const priceOfNisabSavingsGold = goldCalculator(savingsLocation, 24, NISAB_GOLD);
-const priceOfNisabSavingsSilver = goldCalculator(savingsLocation, NISAB_SILVER);
+const priceOfNisabSavingsSilver = silverCalculator(savingsLocation, NISAB_SILVER);
 
 // Nisab for metals
 const priceOfNisabGold = goldCalculator(locationForGold, 24, NISAB_GOLD); // for the purest value
@@ -34,7 +34,7 @@ const silverPrice = silverCalculator(locationForSilver, weightOfSilver);
 // To calculate zakat for metals and saving in that location
 function zakat(goldPrice1, silverPrice2, priceOfNISABGold3, priceOfNISABSilver4, priceOfNisabSavingsGold5, priceOfNisabSavingsSilver6, savings7)
 {
-    const totalAboveNisab = 0;
+    let totalAboveNisab = 0;
 
     // Check if metals are above Nisab
     if (goldPrice1 > priceOfNISABGold3 || silverPrice2 > priceOfNISABSilver4)
