@@ -6,7 +6,7 @@ const GoldCountries = require('../../metal_rates/gold/json-data/world-data.json'
 function goldCalculator(location, purity, weight)
 {
     location = location.toLowerCase();
-    
+
     // Define the price function for gold based on location and purity
     function price(location, purity)
     {
@@ -52,16 +52,19 @@ function goldCalculator(location, purity, weight)
     // Check if location is supported
     if (!isCitySupportedGold(location) && !isCountrySupportedGold(location))
     {
-        throw new Error('Unsupported location');
+        console.error('Cannot calculate the gold rate for this location');
+        return 0;
     }
 
     // Check if purity is supported based on location
     if (isCitySupportedGold(location) && (purity !== 22 && purity !== 24))
     {
-        throw new Error('Unsupported purity for city. Supported values are 22 and 24.');
+        console.error('Unsupported purity for city. Supported values are 22 and 24.');
+        return 0;
     } else if (isCitySupportedGold(location) && (purity !== 18 && purity !== 22 && purity !== 24))
     {
-        throw new Error('Unsupported purity for country. Supported values are 18, 22, and 24.');
+        console.error('Unsupported purity for country. Supported values are 18, 22, and 24.');
+        return 0;
     }
 
     // Calculate the cost of gold

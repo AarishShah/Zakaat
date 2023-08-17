@@ -5,7 +5,7 @@ const SilverCountries = require('../../metal_rates/silver/json-data/world-data.j
 function silverCalculator(location, weight)
 {
     location = location.toLowerCase();
-   
+
     function price(location)
     {
         if (isCitySupportedSilver(location))
@@ -42,7 +42,8 @@ function silverCalculator(location, weight)
     // Check if location is supported
     if (!isCitySupportedSilver(location) && !isCountrySupportedSilver(location))
     {
-        throw new Error('Unsupported location');
+        console.error('Cannot calculate the silver rate for this location');
+        return 0;
     }
 
     // Calculate the cost of gold
