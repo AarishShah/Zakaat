@@ -1,0 +1,287 @@
+[
+  {
+    "country": "Afghanistan",
+    "currency": "AFN ",
+    "rate": 55.45
+  },
+  {
+    "country": "Algeria",
+    "currency": "DZD ",
+    "rate": 87.76
+  },
+  {
+    "country": "Argentina",
+    "currency": "ARS ",
+    "rate": 31.63
+  },
+  {
+    "country": "Australia",
+    "currency": "AUD ",
+    "rate": 1.03
+  },
+  {
+    "country": "Austria",
+    "currency": "EUR ",
+    "rate": 0.65
+  },
+  {
+    "country": "Bangladesh",
+    "currency": "BDT ",
+    "rate": 61.55
+  },
+  {
+    "country": "Belgium",
+    "currency": "EUR ",
+    "rate": 0.65
+  },
+  {
+    "country": "Bhutan",
+    "currency": "BTN ",
+    "rate": 50.55
+  },
+  {
+    "country": "Brazil",
+    "currency": "BRL ",
+    "rate": 2.87
+  },
+  {
+    "country": "Canada",
+    "currency": "CAD ",
+    "rate": 0.97
+  },
+  {
+    "country": "Chile",
+    "currency": "CLP ",
+    "rate": 497.19
+  },
+  {
+    "country": "China",
+    "currency": "CNY ",
+    "rate": 4.9
+  },
+  {
+    "country": "Cuba",
+    "currency": "CUP ",
+    "rate": 19.36
+  },
+  {
+    "country": "Denmark",
+    "currency": "DKK ",
+    "rate": 4.83
+  },
+  {
+    "country": "Egypt",
+    "currency": "EGP ",
+    "rate": 12.65
+  },
+  {
+    "country": "Finland",
+    "currency": "EUR ",
+    "rate": 0.65
+  },
+  {
+    "country": "France",
+    "currency": "EUR ",
+    "rate": 0.65
+  },
+  {
+    "country": "Germany",
+    "currency": "EUR ",
+    "rate": 0.65
+  },
+  {
+    "country": "Greece",
+    "currency": "EUR ",
+    "rate": 0.65
+  },
+  {
+    "country": "Hong Kong",
+    "currency": "HKD ",
+    "rate": 5.74
+  },
+  {
+    "country": "Hungary",
+    "currency": "HUF ",
+    "rate": 209.11
+  },
+  {
+    "country": "Indonesia",
+    "currency": "IDR ",
+    "rate": 10404.46
+  },
+  {
+    "country": "Iran",
+    "currency": "IRR ",
+    "rate": 30704.78
+  },
+  {
+    "country": "Ireland",
+    "currency": "EUR ",
+    "rate": 0.65
+  },
+  {
+    "country": "Israel",
+    "currency": "ILS ",
+    "rate": 2.65
+  },
+  {
+    "country": "Italy",
+    "currency": "EUR ",
+    "rate": 0.65
+  },
+  {
+    "country": "Japan",
+    "currency": "JPY ",
+    "rate": 81
+  },
+  {
+    "country": "Jordan",
+    "currency": "JOD ",
+    "rate": 0.52
+  },
+  {
+    "country": "Maldives",
+    "currency": "MVR ",
+    "rate": 11.45
+  },
+  {
+    "country": "Mauritius",
+    "currency": "MUR ",
+    "rate": 25.78
+  },
+  {
+    "country": "Mexico",
+    "currency": "MXN ",
+    "rate": 14.2
+  },
+  {
+    "country": "Morocco",
+    "currency": "MAD ",
+    "rate": 7.05
+  },
+  {
+    "country": "Myanmar",
+    "currency": "MMK ",
+    "rate": 1105.39
+  },
+  {
+    "country": "Nepal",
+    "currency": "NPR ",
+    "rate": 81.26
+  },
+  {
+    "country": "Netherlands",
+    "currency": "EUR ",
+    "rate": 0.65
+  },
+  {
+    "country": "New Zealand",
+    "currency": "NZD ",
+    "rate": 1.07
+  },
+  {
+    "country": "Nigeria",
+    "currency": "NGN ",
+    "rate": 263.01
+  },
+  {
+    "country": "Norway",
+    "currency": "NOK ",
+    "rate": 6.31
+  },
+  {
+    "country": "Pakistan",
+    "currency": "PKR ",
+    "rate": 102.42
+  },
+  {
+    "country": "Philippines",
+    "currency": "PHP ",
+    "rate": 38.5
+  },
+  {
+    "country": "Poland",
+    "currency": "PLN ",
+    "rate": 2.8
+  },
+  {
+    "country": "Portugal",
+    "currency": "EUR ",
+    "rate": 0.65
+  },
+  {
+    "country": "Romania",
+    "currency": "RON ",
+    "rate": 3.11
+  },
+  {
+    "country": "Russia",
+    "currency": "RUB ",
+    "rate": 48.82
+  },
+  {
+    "country": "South Africa",
+    "currency": "ZAR ",
+    "rate": 10.59
+  },
+  {
+    "country": "South Korea",
+    "currency": "KRW ",
+    "rate": 830.16
+  },
+  {
+    "country": "Spain",
+    "currency": "EUR ",
+    "rate": 0.65
+  },
+  {
+    "country": "Sri Lanka",
+    "currency": "LKR ",
+    "rate": 128.2
+  },
+  {
+    "country": "Sweden",
+    "currency": "SEK ",
+    "rate": 6.8
+  },
+  {
+    "country": "Switzerland",
+    "currency": "CHF ",
+    "rate": 0.73
+  },
+  {
+    "country": "Syria",
+    "currency": "SYP ",
+    "rate": 376.43
+  },
+  {
+    "country": "Thailand",
+    "currency": "THB ",
+    "rate": 23.17
+  },
+  {
+    "country": "Turkey",
+    "currency": "TRY ",
+    "rate": 4.07
+  },
+  {
+    "country": "UK",
+    "currency": "GBP ",
+    "rate": 0.56
+  },
+  {
+    "country": "USA",
+    "currency": "USD ",
+    "rate": 0.73
+  },
+  {
+    "country": "Vietnam",
+    "currency": "VND ",
+    "rate": 16954.2
+  },
+  {
+    "country": "Yemen",
+    "currency": "YER ",
+    "rate": 182.4
+  }
+]

@@ -1,0 +1,401 @@
+[
+  {
+    "country": "Afghanistan",
+    "currency": "AFN ",
+    "rate18K": 3484,
+    "rate22K": 4258,
+    "rate24K": 4644.99
+  },
+  {
+    "country": "Algeria",
+    "currency": "DZD ",
+    "rate18K": 5514,
+    "rate22K": 6739,
+    "rate24K": 7352
+  },
+  {
+    "country": "Argentina",
+    "currency": "ARS ",
+    "rate18K": 1987,
+    "rate22K": 2429,
+    "rate24K": 2649.42
+  },
+  {
+    "country": "Australia",
+    "currency": "AUD ",
+    "rate18K": 65,
+    "rate22K": 79,
+    "rate24K": 86.26
+  },
+  {
+    "country": "Austria",
+    "currency": "EUR ",
+    "rate18K": 41,
+    "rate22K": 50,
+    "rate24K": 54.55
+  },
+  {
+    "country": "Bangladesh",
+    "currency": "BDT ",
+    "rate18K": 3867,
+    "rate22K": 4727,
+    "rate24K": 5156.41
+  },
+  {
+    "country": "Belgium",
+    "currency": "EUR ",
+    "rate18K": 41,
+    "rate22K": 50,
+    "rate24K": 54.55
+  },
+  {
+    "country": "Bhutan",
+    "currency": "BTN ",
+    "rate18K": 3176,
+    "rate22K": 3882,
+    "rate24K": 4235.04
+  },
+  {
+    "country": "Brazil",
+    "currency": "BRL ",
+    "rate18K": 180,
+    "rate22K": 220,
+    "rate24K": 240.14
+  },
+  {
+    "country": "Canada",
+    "currency": "CAD ",
+    "rate18K": 61,
+    "rate22K": 75,
+    "rate24K": 81.66
+  },
+  {
+    "country": "Chile",
+    "currency": "CLP ",
+    "rate18K": 31239,
+    "rate22K": 38181,
+    "rate24K": 41651.66
+  },
+  {
+    "country": "China",
+    "currency": "CNY ",
+    "rate18K": 308,
+    "rate22K": 377,
+    "rate24K": 410.76
+  },
+  {
+    "country": "Cuba",
+    "currency": "CUP ",
+    "rate18K": 1216,
+    "rate22K": 1487,
+    "rate24K": 1621.99
+  },
+  {
+    "country": "Denmark",
+    "currency": "DKK ",
+    "rate18K": 304,
+    "rate22K": 371,
+    "rate24K": 404.95
+  },
+  {
+    "country": "Egypt",
+    "currency": "EGP ",
+    "rate18K": 795,
+    "rate22K": 971,
+    "rate24K": 1059.66
+  },
+  {
+    "country": "Finland",
+    "currency": "EUR ",
+    "rate18K": 41,
+    "rate22K": 50,
+    "rate24K": 54.55
+  },
+  {
+    "country": "France",
+    "currency": "EUR ",
+    "rate18K": 41,
+    "rate22K": 50,
+    "rate24K": 54.55
+  },
+  {
+    "country": "Germany",
+    "currency": "EUR ",
+    "rate18K": 41,
+    "rate22K": 50,
+    "rate24K": 54.55
+  },
+  {
+    "country": "Greece",
+    "currency": "EUR ",
+    "rate18K": 41,
+    "rate22K": 50,
+    "rate24K": 54.55
+  },
+  {
+    "country": "Hong Kong",
+    "currency": "HKD ",
+    "rate18K": 360,
+    "rate22K": 440,
+    "rate24K": 480.45
+  },
+  {
+    "country": "Hungary",
+    "currency": "HUF ",
+    "rate18K": 13139,
+    "rate22K": 16058,
+    "rate24K": 17518.07
+  },
+  {
+    "country": "Indonesia",
+    "currency": "IDR ",
+    "rate18K": 653713,
+    "rate22K": 798982,
+    "rate24K": 871616.73
+  },
+  {
+    "country": "Iran",
+    "currency": "IRR ",
+    "rate18K": 1929182,
+    "rate22K": 2357889,
+    "rate24K": 2572242.99
+  },
+  {
+    "country": "Ireland",
+    "currency": "EUR ",
+    "rate18K": 41,
+    "rate22K": 50,
+    "rate24K": 54.55
+  },
+  {
+    "country": "Israel",
+    "currency": "ILS ",
+    "rate18K": 167,
+    "rate22K": 204,
+    "rate24K": 222.41
+  },
+  {
+    "country": "Italy",
+    "currency": "EUR ",
+    "rate18K": 41,
+    "rate22K": 50,
+    "rate24K": 54.55
+  },
+  {
+    "country": "Japan",
+    "currency": "JPY ",
+    "rate18K": 5089,
+    "rate22K": 6220,
+    "rate24K": 6785.5
+  },
+  {
+    "country": "Jordan",
+    "currency": "JOD ",
+    "rate18K": 33,
+    "rate22K": 40,
+    "rate24K": 43.4
+  },
+  {
+    "country": "Maldives",
+    "currency": "MVR ",
+    "rate18K": 719,
+    "rate22K": 879,
+    "rate24K": 959.11
+  },
+  {
+    "country": "Mauritius",
+    "currency": "MUR ",
+    "rate18K": 1620,
+    "rate22K": 1979,
+    "rate24K": 2159.37
+  },
+  {
+    "country": "Mexico",
+    "currency": "MXN ",
+    "rate18K": 892,
+    "rate22K": 1090,
+    "rate24K": 1189.56
+  },
+  {
+    "country": "Morocco",
+    "currency": "MAD ",
+    "rate18K": 443,
+    "rate22K": 542,
+    "rate24K": 590.98
+  },
+  {
+    "country": "Myanmar",
+    "currency": "MMK ",
+    "rate18K": 69451,
+    "rate22K": 84885,
+    "rate24K": 92601.86
+  },
+  {
+    "country": "Nepal",
+    "currency": "NPR ",
+    "rate18K": 5106,
+    "rate22K": 6241,
+    "rate24K": 6807.83
+  },
+  {
+    "country": "Netherlands",
+    "currency": "EUR ",
+    "rate18K": 41,
+    "rate22K": 50,
+    "rate24K": 54.55
+  },
+  {
+    "country": "New Zealand",
+    "currency": "NZD ",
+    "rate18K": 67,
+    "rate22K": 82,
+    "rate24K": 89.94
+  },
+  {
+    "country": "Nigeria",
+    "currency": "NGN ",
+    "rate18K": 16525,
+    "rate22K": 20197,
+    "rate24K": 22033.63
+  },
+  {
+    "country": "Norway",
+    "currency": "NOK ",
+    "rate18K": 396,
+    "rate22K": 484,
+    "rate24K": 528.23
+  },
+  {
+    "country": "Pakistan",
+    "currency": "PKR ",
+    "rate18K": 6435,
+    "rate22K": 7865,
+    "rate24K": 8580.42
+  },
+  {
+    "country": "Philippines",
+    "currency": "PHP ",
+    "rate18K": 2419,
+    "rate22K": 2956,
+    "rate24K": 3225.06
+  },
+  {
+    "country": "Poland",
+    "currency": "PLN ",
+    "rate18K": 176,
+    "rate22K": 215,
+    "rate24K": 234.92
+  },
+  {
+    "country": "Portugal",
+    "currency": "EUR ",
+    "rate18K": 41,
+    "rate22K": 50,
+    "rate24K": 54.55
+  },
+  {
+    "country": "Romania",
+    "currency": "RON ",
+    "rate18K": 195,
+    "rate22K": 238,
+    "rate24K": 260.18
+  },
+  {
+    "country": "Russia",
+    "currency": "RUB ",
+    "rate18K": 3068,
+    "rate22K": 3749,
+    "rate24K": 4090.23
+  },
+  {
+    "country": "South Africa",
+    "currency": "ZAR ",
+    "rate18K": 665,
+    "rate22K": 813,
+    "rate24K": 887.23
+  },
+  {
+    "country": "South Korea",
+    "currency": "KRW ",
+    "rate18K": 52159,
+    "rate22K": 63750,
+    "rate24K": 69545.33
+  },
+  {
+    "country": "Spain",
+    "currency": "EUR ",
+    "rate18K": 41,
+    "rate22K": 50,
+    "rate24K": 54.55
+  },
+  {
+    "country": "Sri Lanka",
+    "currency": "LKR ",
+    "rate18K": 8055,
+    "rate22K": 9845,
+    "rate24K": 10740.12
+  },
+  {
+    "country": "Sweden",
+    "currency": "SEK ",
+    "rate18K": 427,
+    "rate22K": 522,
+    "rate24K": 569.3
+  },
+  {
+    "country": "Switzerland",
+    "currency": "CHF ",
+    "rate18K": 46,
+    "rate22K": 56,
+    "rate24K": 60.91
+  },
+  {
+    "country": "Syria",
+    "currency": "SYP ",
+    "rate18K": 23651,
+    "rate22K": 28907,
+    "rate24K": 31534.71
+  },
+  {
+    "country": "Thailand",
+    "currency": "THB ",
+    "rate18K": 1456,
+    "rate22K": 1779,
+    "rate24K": 1941.2
+  },
+  {
+    "country": "Turkey",
+    "currency": "TRY ",
+    "rate18K": 255,
+    "rate22K": 312,
+    "rate24K": 340.58
+  },
+  {
+    "country": "UK",
+    "currency": "GBP ",
+    "rate18K": 35,
+    "rate22K": 43,
+    "rate24K": 46.93
+  },
+  {
+    "country": "USA",
+    "currency": "USD ",
+    "rate18K": 46,
+    "rate22K": 56,
+    "rate24K": 61.21
+  },
+  {
+    "country": "Vietnam",
+    "currency": "VND ",
+    "rate18K": 1065233,
+    "rate22K": 1301951,
+    "rate24K": 1420310.7
+  },
+  {
+    "country": "Yemen",
+    "currency": "YER ",
+    "rate18K": 11460,
+    "rate22K": 14007,
+    "rate24K": 15280.32
+  }
+]

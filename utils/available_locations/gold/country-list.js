@@ -1,6 +1,5 @@
 // https://rates.goldenchennai.com/world/gold-rate/
 
-
 const Gold_Countries = `
 [
   "Afghanistan",
