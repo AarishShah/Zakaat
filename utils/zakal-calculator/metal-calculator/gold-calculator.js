@@ -16,6 +16,7 @@ function goldCalculator(location, purity, weight)
         {
             let rate22K;
             let rate24K;
+            let currency = 'inr';
 
             IndianGoldCities.find(element =>
             {
@@ -26,13 +27,16 @@ function goldCalculator(location, purity, weight)
                 }
             });
 
-            return purity === 22 ? rate22K : rate24K;
+            const rate = purity === 22 ? rate22K : rate24K;
+            return { rate, currency };
+
 
         } else
         {
             let rate18K;
             let rate22K;
             let rate24K;
+            let currency;
 
             GoldCountries.find(element =>
             {
@@ -41,10 +45,12 @@ function goldCalculator(location, purity, weight)
                     rate18K = element.rate18K;
                     rate22K = element.rate22K;
                     rate24K = element.rate24K;
+                    currency = element.currency.trim().toLowerCase();
                 }
             });
 
-            return purity === 18 ? rate18K : (purity === 22 ? rate22K : rate24K);
+            const rate = purity === 18 ? rate18K : (purity === 22 ? rate22K : rate24K);
+            return { rate, currency };
         }
 
     }
@@ -53,23 +59,28 @@ function goldCalculator(location, purity, weight)
     if (!isCitySupportedGold(location) && !isCountrySupportedGold(location))
     {
         console.error('Cannot calculate the gold rate for this location');
-        return 0;
+        return { cost: 0, currency: null };
     }
 
     // Check if purity is supported based on location
     if (isCitySupportedGold(location) && (purity !== 22 && purity !== 24))
     {
         console.error('Unsupported purity for city. Supported values are 22 and 24.');
-        return 0;
+        return { cost: 0, currency: null };
     } else if (isCitySupportedGold(location) && (purity !== 18 && purity !== 22 && purity !== 24))
     {
         console.error('Unsupported purity for country. Supported values are 18, 22, and 24.');
-        return 0;
+        return { cost: 0, currency: null };
     }
 
     // Calculate the cost of gold
-    const cost = weight * price(location, purity);
-    return cost;
+    const { rate, currency } = price(location, purity);
+    const cost = weight * rate;
+    return { cost, currency };
+
 }
-// goldCalculator('mumbai', 22, 1000);
+// Example:
+// const result = goldCalculator('mumbai', 22, 1000);
+// console.log(`The gold price is ${result.cost} ${result.currency}`);
+
 module.exports = goldCalculator;

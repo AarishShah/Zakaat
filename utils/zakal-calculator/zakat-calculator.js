@@ -20,16 +20,16 @@ const savings = 1000; // fetch from user
 const savingsLocation = 'chennai'; // fetch from user
 
 // Nisab for savings
-const priceOfNisabSavingsGold = goldCalculator(savingsLocation, 24, NISAB_GOLD);
-const priceOfNisabSavingsSilver = silverCalculator(savingsLocation, NISAB_SILVER);
+const priceOfNisabSavingsGold = goldCalculator(savingsLocation, 24, NISAB_GOLD).cost; // convert to usd
+const priceOfNisabSavingsSilver = silverCalculator(savingsLocation, NISAB_SILVER).cost; // convert to usd
 
 // Nisab for metals
-const priceOfNisabGold = goldCalculator(locationForGold, 24, NISAB_GOLD); // for the purest value
-const priceOfNisabSilver = silverCalculator(locationForSilver, NISAB_SILVER);
+const priceOfNisabGold = goldCalculator(locationForGold, 24, NISAB_GOLD).cost; // for the purest value // convert to usd
+const priceOfNisabSilver = silverCalculator(locationForSilver, NISAB_SILVER).cost; // convert to usd
 
 // Price of metals - calculated
-const goldPrice = goldCalculator(locationForGold, purity, weightOfGold);
-const silverPrice = silverCalculator(locationForSilver, weightOfSilver);
+const goldPrice = goldCalculator(locationForGold, purity, weightOfGold).cost; // convert to usd
+const silverPrice = silverCalculator(locationForSilver, weightOfSilver).cost; // convert to usd
 
 // To calculate zakat for metals and saving in that location
 function zakat(goldPrice1, silverPrice2, priceOfNISABGold3, priceOfNISABSilver4, priceOfNisabSavingsGold5, priceOfNisabSavingsSilver6, savings7)
