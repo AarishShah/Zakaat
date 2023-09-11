@@ -1,3 +1,5 @@
+// https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/inr/usd.json
+
 const request = require('postman-request');
 
 function currencyConverter(amount, fromCurrency, toCurrency)

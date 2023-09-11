@@ -19,20 +19,21 @@ const savings = 1000;
 const savingsLocation = 'chennai';
 
 // Main function
-async function calculateZakat() {
+async function calculateZakat()
+{
     // local currency
 
     // Nisab for savings
-    const one = await goldCalculator(savingsLocation, 24, NISAB_GOLD);
-    const two = await silverCalculator(savingsLocation, NISAB_SILVER);
+    const one = goldCalculator(savingsLocation, 24, NISAB_GOLD);
+    const two = silverCalculator(savingsLocation, NISAB_SILVER);
 
     // Nisab for metals
-    const three = await goldCalculator(locationForGold, 24, NISAB_GOLD);
-    const four = await silverCalculator(locationForSilver, NISAB_SILVER);
+    const three = goldCalculator(locationForGold, 24, NISAB_GOLD);
+    const four = silverCalculator(locationForSilver, NISAB_SILVER);
 
     // Price of metals - calculated
-    const five = await goldCalculator(locationForGold, purity, weightOfGold);
-    const six = await silverCalculator(locationForSilver, weightOfSilver);
+    const five = goldCalculator(locationForGold, purity, weightOfGold);
+    const six = silverCalculator(locationForSilver, weightOfSilver);
 
     // to collect local currency (for frontend)
     const seven = one.cost;
@@ -51,10 +52,10 @@ async function calculateZakat() {
     // USD currency
     const priceOfNisabSavingsGold = await currencyConverter(one.cost, one.currency, 'usd');
     const priceOfNisabSavingsSilver = await currencyConverter(two.cost, two.currency, 'usd');
-    
+
     const priceOfNisabGold = await currencyConverter(three.cost, three.currency, 'usd');
     const priceOfNisabSilver = await currencyConverter(four.cost, four.currency, 'usd');
-    
+
     const goldPrice = await currencyConverter(five.cost, five.currency, 'usd');
     const silverPrice = await currencyConverter(six.cost, six.currency, 'usd');
 
