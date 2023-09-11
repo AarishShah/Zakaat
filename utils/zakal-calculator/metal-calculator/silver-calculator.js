@@ -11,6 +11,7 @@ function silverCalculator(location, weight)
         if (isCitySupportedSilver(location))
         {
             let rate;
+            let currency = 'inr';
 
             IndianSilverCities.find(element =>
             {
@@ -20,21 +21,23 @@ function silverCalculator(location, weight)
                 }
             });
 
-            return rate;
+            return { rate, currency };
 
         } else
         {
             let rate;
+            let currency;
 
             SilverCountries.find(element =>
             {
                 if (element.country.toLowerCase() === location)
                 {
                     rate = element.rate;
+                    currency = element.currency.trim().toLowerCase();
                 }
             });
 
-            return rate;
+            return { rate, currency };
         }
 
     }
@@ -43,13 +46,16 @@ function silverCalculator(location, weight)
     if (!isCitySupportedSilver(location) && !isCountrySupportedSilver(location))
     {
         console.error('Cannot calculate the silver rate for this location');
-        return 0;
+        return { cost: 0, currency: null };
     }
 
     // Calculate the cost of gold
-    const cost = weight * price(location);
-    return cost;
+    const { rate, currency } = price(location);
+    const cost = weight * rate;
+    return { cost, currency };
 }
-// silverCalculator('mumbai', 1000);
+// Example:
+// const result = silverCalculator('mumbai', 1000);
+// console.log(`The silver price is ${result.cost} ${result.currency}`);
 
 module.exports = silverCalculator;
