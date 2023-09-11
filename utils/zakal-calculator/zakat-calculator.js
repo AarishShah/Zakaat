@@ -1,37 +1,69 @@
 const goldCalculator = require('./metal-calculator/gold-calculator');
 const silverCalculator = require('./metal-calculator/silver-calculator');
+const currencyConverter = require('./metal-calculator/currency-converter');
 
 // Constants
 const NISAB_GOLD = 85.0;
 const NISAB_SILVER = 595.0;
 const ZAKAT_RATE = 0.025;
 
-// Gold
-const locationForGold = 'chennai'; // fetch from user
-const purity = 24; // fetch from user
-const weightOfGold = 1000; // fetch from user
+// Fetch details (assuming these are constants for now)
+const locationForGold = 'chennai';
+const purity = 24;
+const weightOfGold = 1000;
 
-// Silver
-const locationForSilver = 'chennai'; // fetch from user
-const weightOfSilver = 1000; // fetch from user
+const locationForSilver = 'chennai';
+const weightOfSilver = 1000;
 
-// Savings
-const savings = 1000; // fetch from user
-const savingsLocation = 'chennai'; // fetch from user
+const savings = 1000;
+const savingsLocation = 'chennai';
 
-// Nisab for savings
-const priceOfNisabSavingsGold = goldCalculator(savingsLocation, 24, NISAB_GOLD).cost; // convert to usd
-const priceOfNisabSavingsSilver = silverCalculator(savingsLocation, NISAB_SILVER).cost; // convert to usd
+// Main function
+async function calculateZakat() {
+    // local currency
 
-// Nisab for metals
-const priceOfNisabGold = goldCalculator(locationForGold, 24, NISAB_GOLD).cost; // for the purest value // convert to usd
-const priceOfNisabSilver = silverCalculator(locationForSilver, NISAB_SILVER).cost; // convert to usd
+    // Nisab for savings
+    const one = await goldCalculator(savingsLocation, 24, NISAB_GOLD);
+    const two = await silverCalculator(savingsLocation, NISAB_SILVER);
 
-// Price of metals - calculated
-const goldPrice = goldCalculator(locationForGold, purity, weightOfGold).cost; // convert to usd
-const silverPrice = silverCalculator(locationForSilver, weightOfSilver).cost; // convert to usd
+    // Nisab for metals
+    const three = await goldCalculator(locationForGold, 24, NISAB_GOLD);
+    const four = await silverCalculator(locationForSilver, NISAB_SILVER);
 
-// To calculate zakat for metals and saving in that location
+    // Price of metals - calculated
+    const five = await goldCalculator(locationForGold, purity, weightOfGold);
+    const six = await silverCalculator(locationForSilver, weightOfSilver);
+
+    // to collect local currency (for frontend)
+    const seven = one.cost;
+    const eight = one.currency;
+    const nine = two.cost;
+    const ten = two.currency;
+    const eleven = three.cost;
+    const twelve = three.currency;
+    const thirteen = four.cost;
+    const fourteen = four.currency;
+    const fifteen = five.cost;
+    const sixteen = five.currency;
+    const seventeen = six.cost;
+    const eighteen = six.currency;
+
+    // USD currency
+    const priceOfNisabSavingsGold = await currencyConverter(one.cost, one.currency, 'usd');
+    const priceOfNisabSavingsSilver = await currencyConverter(two.cost, two.currency, 'usd');
+    
+    const priceOfNisabGold = await currencyConverter(three.cost, three.currency, 'usd');
+    const priceOfNisabSilver = await currencyConverter(four.cost, four.currency, 'usd');
+    
+    const goldPrice = await currencyConverter(five.cost, five.currency, 'usd');
+    const silverPrice = await currencyConverter(six.cost, six.currency, 'usd');
+
+    // Zakat calculation
+    const zakatAmount = zakat(goldPrice, silverPrice, priceOfNisabGold, priceOfNisabSilver, priceOfNisabSavingsGold, priceOfNisabSavingsSilver, savings);
+    console.log(zakatAmount);
+}
+
+// Zakat calculation function remains unchanged
 function zakat(goldPrice1, silverPrice2, priceOfNISABGold3, priceOfNISABSilver4, priceOfNisabSavingsGold5, priceOfNisabSavingsSilver6, savings7)
 {
     let totalAboveNisab = 0;
@@ -58,4 +90,4 @@ function zakat(goldPrice1, silverPrice2, priceOfNISABGold3, priceOfNISABSilver4,
 
 }
 
-console.log(zakat(goldPrice, silverPrice, priceOfNisabGold, priceOfNisabSilver, priceOfNisabSavingsGold, priceOfNisabSavingsSilver, savings));
+calculateZakat();
