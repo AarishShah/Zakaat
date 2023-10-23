@@ -111,4 +111,5 @@ function zakat
 
 }
 
-calculateZakat();
+// calculateZakat();
+module.exports = { calculateZakat };

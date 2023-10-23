@@ -1,7 +1,7 @@
 const express = require('express');
 const Calculator = require('../models/zakat'); // Adjust the path according to your project structure
 const auth = require('../middleware/auth'); // Adjust the path according to your project structure
-const zakatCalculator = require('../utils/zakal-calculator/zakat-calculator');
+const { calculateZakat } = require('../utils/zakat-calculator/zakat-calculator');
 const router = new express.Router();
 
 // Save a new calculation
@@ -10,17 +10,32 @@ router.post('/calculateZakat', auth, async (req, res) =>
 {
     try
     {
-        // map this to zakatCalculator
         // Extract data from the request body
-        const { income, savings } = req.body;
+        const {
+            savingsLocation,
+            locationForGold,
+            locationForSilver,
+            purity,
+            weightOfGold,
+            weightOfSilver,
+            savings
+        } = req.body;
 
         // Calculate Zakat using the imported function
-        const zakatValue = zakatCalculator(income, savings);
+        const zakatValue = await calculateZakat(
+            savingsLocation,
+            locationForGold,
+            locationForSilver,
+            purity,
+            weightOfGold,
+            weightOfSilver,
+            savings
+        );
 
         // Display the result in the terminal
         console.log(`Zakat for user ${req.user.name}: ${zakatValue}`);
 
-        // Send a response back to the user (optional)
+        // Send a response back to the user
         res.send({ zakatValue });
     } catch (error)
     {
@@ -29,7 +44,7 @@ router.post('/calculateZakat', auth, async (req, res) =>
     }
 });
 
-router.post('/calculator/save',auth, async (req, res) =>
+router.post('/calculator/save', auth, async (req, res) =>
 {
     const calculator = new Calculator({
         ...req.body,
@@ -47,7 +62,7 @@ router.post('/calculator/save',auth, async (req, res) =>
 });
 
 // Get all calculations for the logged-in user
-router.get('/calculator/history',  async (req, res) =>
+router.get('/calculator/history', async (req, res) =>
 {
     try
     {
