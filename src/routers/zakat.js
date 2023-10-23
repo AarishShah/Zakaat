@@ -21,7 +21,7 @@ router.post('/calculateZakat', auth, async (req, res) =>
         );
 
         // Display the result in the terminal
-        console.log(`Zakat for user ${req.user.name}: ${zakatValue}`);
+        // console.log(`Zakat for user ${req.user.name}: ${zakatValue}`);
 
         // Send a response back to the user
         res.send({ zakatValue });

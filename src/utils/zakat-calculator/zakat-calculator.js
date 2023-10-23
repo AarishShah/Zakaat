@@ -74,7 +74,6 @@ async function calculateZakat
     // Zakat calculation
     const zakatAmount = zakat(goldPrice, silverPrice, priceOfNisabGold, priceOfNisabSilver, priceOfNisabSavingsGold, priceOfNisabSavingsSilver, savings);
     // console.log(zakatAmount);
-    console.log(goldPrice, silverPrice, savings, zakatAmount);
     return {
         goldPrice,
         silverPrice,
