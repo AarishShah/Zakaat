@@ -2,9 +2,10 @@
 // 3630 give nothing, 3629 is the last td
 // 726 cities
 
+const GoldCity = require('../../../../models/metal_rates/gold/gold_cities');
 const axios = require('axios');
 const cheerio = require('cheerio');
-const fs = require('fs');
+// const fs = require('fs');
 
 const url = `https://www.creditmantri.com/gold-rate/`;
 
@@ -18,10 +19,10 @@ async function extractData(url)
 {
     const $ = await fetchData(url);
     const dataRow = $('tr');
-    let results = [];
+    // let results = [];
 
-    // for (let index = 0; index < 30; index += 5) // test for small data
-    for (let index = 0; index < 3630; index += 5) // 3630
+    for (let index = 0; index < 30; index += 5) // test for small data
+    // for (let index = 0; index < 3630; index += 5) // 3630
     {
 
         const city = dataRow.find('td').eq(index).text();
@@ -31,23 +32,17 @@ async function extractData(url)
         const goldCost22K = parseFloat(rate22K.replace(/[^0-9.]+/g, ''));
         const goldCost24K = parseFloat(rate24K.replace(/[^0-9.]+/g, ''));
 
-        results.push({ city: city, rate22K: goldCost22K, rate24K: goldCost24K });
-
+        // results.push({ city: city, rate22K: goldCost22K, rate24K: goldCost24K });
+        try
+        {
+            await GoldCity.findOneAndUpdate({ city }, { rate22K: goldCost22K, rate24K: goldCost24K }, { upsert: true, new: true });
+            console.log(`Data saved for city: ${city}`);
+        } catch (error)
+        {
+            console.error(`Error saving data for city ${city}:`, error);
+        }
     }
-
-    /// below code needs to be replaced. It should be stored in a database
-    // Ensure 'data' directory exists or create it
-    const dir = './gold/json-data';
-    if (!fs.existsSync(dir))
-    {
-        fs.mkdirSync(dir, { recursive: true });
-    }
-
-    // Save the file inside the 'data' directory
-    fs.writeFileSync(dir + '/indian-cities-data.json', JSON.stringify(results, null, 2), 'utf-8');
-
-    return results;
-
+    console.log('Data extraction and saving to database completed.');
 }
 
 module.exports = extractData;
