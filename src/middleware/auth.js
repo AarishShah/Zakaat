@@ -14,7 +14,6 @@ const auth = async (req, res, next) =>
                     'tokens.token': token // go in token's token array and match it with the token const that we got above, so user logs out and token will still be valid
                 }
             )
-        console.log('User:', user);
         if (!user)
         {
             throw new Error()
