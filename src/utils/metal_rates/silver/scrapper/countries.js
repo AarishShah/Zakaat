@@ -1,12 +1,12 @@
 // Data source: https://rates.goldenchennai.com/world/silver-rate/nepal-silver-rate-today/ (we will use this for countries) // scrapping data from this site is allowed
 
+const Silvercountry = require('../../../../models/metal_rates/silver/silver_countries');
 const silverCountryList = require('../../../available_locations/silver/country-list');
-const silverCountryListObj = JSON.parse(silverCountryList())
-// const fs = require('fs');
-const Silver = require('../../../../models/Silver');
 
 const axios = require('axios');
 const cheerio = require('cheerio');
+
+const silverCountryListObj = JSON.parse(silverCountryList())
 
 async function fetchData(url)
 {
@@ -24,7 +24,6 @@ async function fetchData(url)
 async function extractData()
 {
     let location = "";
-    let results = [];
 
     for (let index = 0; index < 2; index++) // test for small data
     // for (let index = 0; index < 57; index++)
@@ -41,20 +40,9 @@ async function extractData()
         const silverCurrencySymbol = rate.replace(/[0-9.,]+/g, '');
         const silverCost = parseFloat(rate.replace(/[^0-9.]+/g, ''));
 
-        console.log('hiii');
-        results.push({ country: country, currency: silverCurrencySymbol, rate: silverCost });
         try
         {
-            const silverData = new Silver(
-                {
-                    country: country,
-                    currency: silverCurrencySymbol,
-                    rate: silverCost,
-                }
-            );
-            await silverData.save();
-            results.push(silverData);
-            console.log('hi ', silverData);
+            await Silvercountry.findOneAndUpdate({ country: country }, { currency: silverCurrencySymbol, rate: silverCost }, { upsert: true, new: true });
         } catch (error)
         {
             console.error(`Error saving data for ${country}:`, error);
@@ -62,6 +50,5 @@ async function extractData()
     }
 
     console.log('Data extraction and saving to database completed.');
-    return results;
 }
 module.exports = extractData;

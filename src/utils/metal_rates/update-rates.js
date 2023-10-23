@@ -1,3 +1,5 @@
+require('../../db/mongoose') // to connect mongose to the database
+
 const goldCities = require('./gold/scrapper/indian-cities.js');
 async function gold1()
 {
