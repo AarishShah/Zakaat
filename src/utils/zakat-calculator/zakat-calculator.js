@@ -30,7 +30,7 @@ async function calculateZakat
         savings = 0
     )
 {
-    console.log('From calculator ' + savingsLocation, locationForGold, locationForSilver, purity, weightOfGold, weightOfSilver, savings);
+
     // local currency
 
     // Nisab for savings
@@ -60,16 +60,16 @@ async function calculateZakat
     const eighteen = six.currency;
 
     // USD currency
-    let priceOfNisabSavingsGold, priceOfNisabSavingsSilver, priceOfNisabGold, priceOfNisabSilver, goldPrice, silverPrice;
+    let priceOfNisabSavingsGold, priceOfNisabSavingsSilver;
 
-    if (savingsLocation === 'defaultLocation') { priceOfNisabSavingsGold = 0; } else { priceOfNisabSavingsGold = await currencyConverter(one.cost, one.currency, 'usd'); }
-    if (savingsLocation === 'defaultLocation') { priceOfNisabSavingsSilver = 0; } else { priceOfNisabSavingsSilver = await currencyConverter(two.cost, two.currency, 'usd'); }
+    if (one.cost === 0) { priceOfNisabSavingsGold = 0; savings = 0; } else { priceOfNisabSavingsGold = await currencyConverter(one.cost, one.currency, 'usd'); }
+    if (two.cost === 0) { priceOfNisabSavingsSilver = 0; savings = 0; } else { priceOfNisabSavingsSilver = await currencyConverter(two.cost, two.currency, 'usd'); }
 
-    if (locationForGold === 'defaultLocation') { priceOfNisabGold = 0; } else { priceOfNisabGold = await currencyConverter(three.cost, three.currency, 'usd'); }
-    if (locationForSilver === 'defaultLocation') { priceOfNisabSilver = 0; } else { priceOfNisabSilver = await currencyConverter(four.cost, four.currency, 'usd'); }
+    const priceOfNisabGold = await currencyConverter(three.cost, three.currency, 'usd');
+    const priceOfNisabSilver = await currencyConverter(four.cost, four.currency, 'usd');
 
-    if (locationForGold === 'defaultLocation') { goldPrice = 0; } else { goldPrice = await currencyConverter(five.cost, five.currency, 'usd'); }
-    if (locationForSilver === 'defaultLocation') { silverPrice = 0; } else { silverPrice = await currencyConverter(six.cost, six.currency, 'usd'); }
+    const goldPrice = await currencyConverter(five.cost, five.currency, 'usd');
+    const silverPrice = await currencyConverter(six.cost, six.currency, 'usd');
 
     // Zakat calculation
     const zakatAmount = zakat(goldPrice, silverPrice, priceOfNisabGold, priceOfNisabSilver, priceOfNisabSavingsGold, priceOfNisabSavingsSilver, savings);

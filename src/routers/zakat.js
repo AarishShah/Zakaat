@@ -11,15 +11,15 @@ router.post('/calculateZakat', auth, async (req, res) =>
     try
     {
         // Extract data from the request body
-        const locationForGold = 'chennai';
-        const purity = 24;
-        const weightOfGold = 1000;
+        const locationForGold = req.body.locationForGold;
+        const purity = req.body.purity;
+        const weightOfGold = req.body.weightOfGold;
 
-        const locationForSilver = 'chennai';
-        const weightOfSilver = 1000;
+        const locationForSilver = req.body.locationForSilver;
+        const weightOfSilver = req.body.weightOfSilver;
 
-        const savings = 1000;
-        const savingsLocation = 'chennai';
+        const savings = req.body.savings;
+        const savingsLocation = req.body.savingsLocation;
 
         // Calculate Zakat using the imported function
         const zakatValue = await calculateZakat(
@@ -31,9 +31,6 @@ router.post('/calculateZakat', auth, async (req, res) =>
             weightOfSilver,
             savings
         );
-        console.log('From Router ' + savingsLocation, locationForGold, locationForSilver, purity, weightOfGold, weightOfSilver, savings);
-        console.log(req.body);
-
 
         // Display the result in the terminal
         console.log(`Zakat for user ${req.user.name}: ${zakatValue}`);

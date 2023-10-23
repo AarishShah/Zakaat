@@ -59,18 +59,18 @@ function goldCalculator(location, purity, weight)
     if (!isCitySupportedGold(location) && !isCountrySupportedGold(location))
     {
         console.error('Cannot calculate the gold rate for this location');
-        return { cost: 0, currency: null };
+        return { cost: 0, currency: 'usd' };
     }
 
     // Check if purity is supported based on location
     if (isCitySupportedGold(location) && (purity !== 22 && purity !== 24))
     {
         console.error('Unsupported purity for city. Supported values are 22 and 24.');
-        return { cost: 0, currency: null };
+        return { cost: 0, currency: 'usd' };
     } else if (isCitySupportedGold(location) && (purity !== 18 && purity !== 22 && purity !== 24))
     {
         console.error('Unsupported purity for country. Supported values are 18, 22, and 24.');
-        return { cost: 0, currency: null };
+        return { cost: 0, currency: 'usd' };
     }
 
     // Calculate the cost of gold

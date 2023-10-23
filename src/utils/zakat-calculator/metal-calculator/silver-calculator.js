@@ -46,7 +46,7 @@ function silverCalculator(location, weight)
     if (!isCitySupportedSilver(location) && !isCountrySupportedSilver(location))
     {
         console.error('Cannot calculate the silver rate for this location');
-        return { cost: 0, currency: null };
+        return { cost: 0, currency: 'usd' };
     }
 
     // Calculate the cost of gold
