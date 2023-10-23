@@ -1,5 +1,4 @@
 const goldCities = require('./gold/scrapper/indian-cities.js');
-const gth = require('./silver/scrapper/countries.js');
 async function gold1()
 {
     const url = `https://www.creditmantri.com/gold-rate/`;

@@ -1,2570 +1,2570 @@
 [
   {
     "city": "CHENNAI",
-    "rate": 66.41
+    "rate": 68.91
   },
   {
     "city": "RAJASTHAN",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "AJMER",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "ALWAR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BANSWARA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BARAN",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BARMER",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BHARATPUR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BHILWARA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BIKANER",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BUNDI",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "CHITTORGARH",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "CHURU",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "DAUSA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "DHOLPUR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "DUNGARPUR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "GANGANAGAR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "HANUMANGARH",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "JAIPUR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "JAISALMER",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "JALORE",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "JHALAWAR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "JHUNJHUNU",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "JODHPUR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "KARAULI",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "KOTA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "NAGAUR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "PALI",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "PRATAPGARH",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "RAJSAMAND",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "SAWAI",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "MADHOPUR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "SIKAR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "SIROHI",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "TONK",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "UDAIPUR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BANGALORE",
-    "rate": 66.28
+    "rate": 68.77
   },
   {
     "city": "DELHI",
-    "rate": 70.58
+    "rate": 71.15
   },
   {
     "city": "ANDAMAN AND NICOBAR",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "ANDHRA PRADESH",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "ANANTAPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "CHITTOOR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "ELURU",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "GUNTUR AMARAVATHI",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "KADAPA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "KAKINADA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "KURNOOL",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "MACHILIPATNAM",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "NELLORE",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "ONGOLE",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "SRIKAKULAM",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "VISAKHAPATNAM",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "VIZIANAGARAM",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "ARUNACHAL PRADESH",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "ALONG",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "ANINI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "BASAR",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "BOMDILA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "CHANGLANG",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "DAPORIJO",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "HAWAI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "ITANAGAR",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "JAMIN",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KHONSA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KOLORIANG",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "LEMMI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "LIKABALI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "LONGDING",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "NAMSAI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "PANGIN",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "PASIGHAT",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "RAGA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "ROING",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "SEPPA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "TATO",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "TAWANG TOWN",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "TEZU",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "YINGKIONG",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "ZIRO",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "ASSAM",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "AMINGAON",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BARPETA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BISHWANATH CHARIALI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BONGAIGAON",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "DHEMAJI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "DHUBRI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "DIBRUGARH",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "DIPHU",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "GARAMUR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "GOALPARA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "GOLAGHAT",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "GUWAHATI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "HAFLONG",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "HAILAKANDI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "HAMREN",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "HATSINGIMARI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "HOJAI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "JORHAT",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KAJALGAON",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KARIMGANJ",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KOKRAJHAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "MANGALDOI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "MARIGAON",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "MUSHALPUR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "NAGAON",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "NALBARI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "NORTH LAKHIMPUR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SIBSAGAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SILCHAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SONARI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "TEZPUR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "TINSUKIA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "UDALGURI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BIHAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "ARARIA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "ARRAH",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "ARWAL",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "AURANGABAD",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BANKA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BEGUSARAI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BETTIAH",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BHABUA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BHAGALPUR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BIHAR SHARIF",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BUXAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "CHHAPRA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "DARBHANGA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "GAYA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "GOPALGANJ",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "HAJIPUR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "JAMUI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "JEHANABAD",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KATIHAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KHAGARIA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KISHANGANJ",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "LAKHISARAI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "MADHEPURA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "MADHUBANI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "MOTIHARI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "MUNGER",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "MUZAFFARPUR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "NAWADA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "PATNA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "PURNIA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SAHARSA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SAMASTIPUR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SASARAM",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SHEIKHPURA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SHEOHAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SITAMARHI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SIWAN",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SUPAUL",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "CHANDIGARH",
-    "rate": 68.9
+    "rate": 69.43
   },
   {
     "city": "CHHATTISGARH",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "AMBIKAPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BAIKUNTHPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BALOD BALODA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BAZAR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BALRAMPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BEMETARA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BIJAPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BILASPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "DANTEWADA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "DHAMTARI",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "DURG",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "GARIABAND",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "GAURELA PENDRA MARWAHI",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "JAGDALPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "JASHPUR NAGAR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "KANKER",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "KAWARDHA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "KONDAGAON",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "KORBA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "MAHASAMUND",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "MUNGELI",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "NAILA JANJGIR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "NARAYANPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "RAIGARH",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "RAIPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "RAJNANDGAON",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "SUKMA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "SURAJPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "DAMAN AND DIU",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "DAMAN",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "DIU",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "GOA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "GOA PANAJI",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "MARGAO",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "GUJARAT",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "AHMEDABAD",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "AHWA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "AMRELI",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "ANAND",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BHARUCH",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BHAVNAGAR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BHUJ",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "BOTAD",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "CHHOTA UDEPUR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "DAHOD",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "GANDHINAGAR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "GODHRA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "HIMATNAGAR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "JAMNAGAR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "JUNAGADH",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "KHAMBHALIA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "LUNAVADA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "MEHSANA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "MODASA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "MORBI",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "NADIAD",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "NAVSARI",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "PALANPUR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "PATAN",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "PORBANDAR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "RAJKOT",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "RAJPIPLA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "SURAT",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "SURENDRANAGAR",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "VADODARA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "VALSAD",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "VERAVAL",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "VYARA",
-    "rate": 69.54
+    "rate": 70.09
   },
   {
     "city": "HARYANA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "AMBALA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "BHIWANI",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "CHARKHI DADRI",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "FARIDABAD",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "FATEHABAD",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "GURGAON",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "HISSAR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "JHAJJAR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "JIND",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "KAITHAL",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "KARNAL",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "KURUKSHETRA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "NARNAUL",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "NUH",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "PALWAL",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "PANCHKULA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "PANIPAT",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "REWARI",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "ROHTAK",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "SIRSA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "SONIPAT",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "YAMUNA NAGAR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "HIMACHAL PRADESH",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "CHAMBA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "DHARAMSHALA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "HAMIRPUR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "KEYLONG",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "KULLU",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "MANDI",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "NAHAN",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "RECKONG PEO",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "SHIMLA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "SOLAN",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "UNA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "HYDERABAD",
-    "rate": 67.55
+    "rate": 68.05
   },
   {
     "city": "JAMMU AND KASHMIR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "ANANTNAG",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "BADGAM",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "BANDIPORE",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "BARAMULLA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "DODA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "GANDERBAL",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "JAMMU",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "KATHUA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "KISHTWAR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "KULGAM",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "KUPWARA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "POONCH",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "PULWAMA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "RAJOURI",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "RAMBAN",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "REASI",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "SAMBA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "SHUPIYAN",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "SRINAGAR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "UDHAMPUR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "JHARKHAND",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BOKARO",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "CHAIBASA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "CHATRA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "DALTONGANJ",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "DEOGHAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "DHANBAD",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "DUMKA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "GARHWA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "GIRIDIH",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "GODDA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "GUMLA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "HAZARIBAG",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "JAMSHEDPUR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "JAMTARA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KHUNTI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KODERMA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "LATEHAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "LOHARDAGA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "PAKUR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "RAMGARH",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "RANCHI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SAHEBGANJ",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SERAIKELA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SIMDEGA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KARNATAKA",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "BAGALKOT",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "BALLARI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "BELGAUM",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "BIDAR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "CHAMARAJANAGAR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "CHIKKABALLAPUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "CHIKMAGALUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "CHITRADURGA",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "DAVANGERE",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "DHARWAD",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "GADAG BETAGERI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "GULBARGA",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "HASSAN",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "HAVERI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "KARWAR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "KOLAR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "KOPPAL",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "MADIKERI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "MANDYA",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "MANGALURU",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "MYSURU",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "RAICHUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "RAMANAGARA",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "SHIMOGA",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "TUMAKURU",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "UDUPI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "VIJAYAPURA",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "YADGIR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "KERALA",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "ALAPPUZHA",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "KAKKANAD",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "KALPETTA",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "KANNUR",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "KASARAGOD",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "KOLLAM",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "KOTTAYAM",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "KOZHIKODE",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "MALAPPURAM",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "PAINAVU",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "PALAKKAD",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "PATHANAMTHITTA",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "THIRUVANANTHAPURAM",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "THRISSUR",
-    "rate": 68.76
+    "rate": 69.29
   },
   {
     "city": "LAKSHADWEEP",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KAVARATTI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "MADHYA PRADESH",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "AGAR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "ALIRAJPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "ANUPPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "ASHOK NAGAR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "BALAGHAT",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "BARWANI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "BETUL",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "BHIND",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "BHOPAL",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "BURHANPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "CHACHAURA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "CHHATARPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "CHHINDWARA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "DAMOH",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "DATIA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "DEWAS",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "DHAR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "DINDORI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "GUNA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "GWALIOR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "HARDA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "HOSHANGABAD",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "INDORE",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "JABALPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "JHABUA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "KATNI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "KHANDWA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "KHARGONE",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "MAIHAR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "MANDLA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "MANDSAUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "MORENA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "NAGDA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "NARSINGHPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "NEEMUCH",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "NIWARI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "PANNA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "RAISEN",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "RAJGARH",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "RATLAM",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "REWA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SAGAR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SATNA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SEHORE",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SEONI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SHAHDOL",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SHAJAPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SHEOPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SHIVPURI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SIDHI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "TIKAMGARH",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "UJJAIN",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "UMARIA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "VIDISHA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "WAIDHAN",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "MAHARASHTRA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "AHMEDNAGAR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "AKOLA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "ALIBAG",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "AMRAVATI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "BANDRA EAST",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "BEED",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "BHANDARA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "BULDHANA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "CHANDRAPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "DHULE",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "GADCHIROLI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "GONDIA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "HINGOLI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "JALGAON",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "JALNA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "KOLHAPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "LATUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "NAGPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "NANDED",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "NANDURBAR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "NASHIK",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "OROS",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "OSMANABAD",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "PALGHAR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "PARBHANI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "PUNE",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "RATNAGIRI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SANGLI",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SATARA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "SOLAPUR",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "THANE",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "WARDHA",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "WASHIM",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "YAVATMAL",
-    "rate": 68.14
+    "rate": 70.67
   },
   {
     "city": "MANIPUR",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "BISHNUPUR",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "CHANDEL",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "CHURACHANDPUR",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "IMPHAL",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "JIRIBAM",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KAKCHING",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KAMJONG",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KANGPOKPI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "NONEY LONGMAI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "PHERZAWL",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "POROMPAT",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "SENAPATI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "TAMENGLONG",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "TENGNOUPAL",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "THOUBAL",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "UKHRUL",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "MEGHALAYA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "AMPATI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "BAGHMARA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "JOWAI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KHLIEHRIAT",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "MAWKYRWAT",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "NONGPOH",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "NONGSTOIN",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "RESUBELPARA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "SHILLONG",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "TURA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "WILLIAMNAGAR",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "MIZORAM",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "AIZAWL",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "CHAMPHAI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KOLASIB",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "LAWNGTLAI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "LUNGLEI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "MAMIT",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "SAIHA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "SERCHHIP",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "MUMBAI",
-    "rate": 69.38
+    "rate": 71.94
   },
   {
     "city": "NAGALAND",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "DIMAPUR",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KIPHIRE",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KOHIMA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "LONGLENG",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "MOKOKCHUNG",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "MON",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "NOKLAK",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "PEREN",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "PHEK",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "TUENSANG",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "WOKHA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "ZUNHEBOTO",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "ODISHA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "ANGUL",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BALANGIR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BALASORE",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BARGARH",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BARIPADA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BHADRAK",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BHAWANIPATNA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BHUBANESWAR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "BOUDH",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "CHHATRAPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "CUTTACK",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "DEBAGARH",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "DHENKANAL",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "JAGATSINGHPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "JHARSUGUDA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "KENDRAPARA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "KENDUJHAR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "KORAPUT",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "MALKANGIRI",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "NABARANGPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "NAYAGARH",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "NUAPADA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "PANIKOILI",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "PARALAKHEMUNDI",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "PHULBANI",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "PURI",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "RAYAGADA",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "SAMBALPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "SUBARNAPUR",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "SUNDARGARH",
-    "rate": 65.45
+    "rate": 67.92
   },
   {
     "city": "PUDUCHERRY",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KARAIKAL",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "MAHE",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "YANAM",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "PUNJAB",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "AMRITSAR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "BARNALA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "BATHINDA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "FARIDKOT",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "FATEHGARH SAHIB",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "FAZILKA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "FIROZPUR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "GURDASPUR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "HOSHIARPUR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "JALANDHAR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "KAPURTHALA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "LUDHIANA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "MANSA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "MOGA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "MOHALI",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "NAWANSHAHR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "PATHANKOT",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "PATIALA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "RUPNAGAR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "SANGRUR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "SRI MUKTSAR SAHIB",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "TARN TARAN SAHIB",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "SIKKIM",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "GANGTOK",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "GEYZING",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "MANGAN",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "NAMCHI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "TAMIL NADU",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "ARIYALUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "CHENGALPATTU",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "COIMBATORE",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "CUDDALORE",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "DHARMAPURI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "DINDIGUL",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "ERODE",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "KALLAKURICHI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "KANCHIPURAM",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "KARUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "KRISHNAGIRI HOSUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "MADURAI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "MAYILADUTHURAI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "NAGAPATTINAM",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "NAGERCOIL",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "NAMAKKAL",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "OOTY",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "PERAMBALUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "PUDUKKOTTAI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "RAMANATHAPURAM",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "RANIPET",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "SALEM",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "SIVAGANGA",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "TENKASI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "THANJAVUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "THENI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "THOOTHUKUDI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "TIRUCHIRAPPALLI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "TIRUNELVELI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "TIRUPATTUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "TIRUPUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "TIRUVALLUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "TIRUVANNAAMALAI",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "TIRUVARUR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "VELLORE",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "VILUPPURAM",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "VIRUDHUNAGAR",
-    "rate": 66.56
+    "rate": 67.04
   },
   {
     "city": "TRIPURA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "AGARTALA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "AMBASSA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "BELONIA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "BISHRAMGANJ",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "DHARMANAGAR",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KAILASHAHAR",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "KHOWAI",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "UDAIPUR TRIPURA",
-    "rate": 67.49
+    "rate": 69.01
   },
   {
     "city": "UTTAR PRADESH",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "UTTARAKHAND",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "ALMORA",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "BAGESHWAR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "CHAMPAWAT",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "DEHRADUN",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "GOPESHWAR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "HARIDWAR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "NAINITAL",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "NEW TEHRI",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "PAURI",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "PITHORAGARH",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "RUDRAPRAYAG",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "RUDRAPUR",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "UTTARKASHI",
-    "rate": 67.42
+    "rate": 69.94
   },
   {
     "city": "WEST BENGAL",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "ALIPORE",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "ALIPURDUAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "ASANSOL",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BAHARAMPUR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BALURGHAT",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BANKURA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BARASAT",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "BARDHAMAN",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "CHINSURAH",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "COOCH BEHAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "DARJEELING",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "ENGLISH BAZAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "HOWRAH",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "JALPAIGURI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "JHARGRAM",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KALIMPONG",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KOLKATA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "KRISHNANAGAR",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "MIDNAPORE",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "PURULIA",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "RAIGANJ",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "SURI",
-    "rate": 67.31
+    "rate": 69.83
   },
   {
     "city": "TAMLUK",
-    "rate": 67.31
+    "rate": 69.83
   }
 ]
