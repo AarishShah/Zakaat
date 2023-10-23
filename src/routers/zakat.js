@@ -4,8 +4,7 @@ const auth = require('../middleware/auth'); // Adjust the path according to your
 const { calculateZakat } = require('../utils/zakat-calculator/zakat-calculator');
 const router = new express.Router();
 
-// Save a new calculation
-
+// To calculate Zakat
 router.post('/calculateZakat', auth, async (req, res) =>
 {
     try
@@ -32,5 +31,51 @@ router.post('/calculateZakat', auth, async (req, res) =>
         res.status(500).send();
     }
 });
+
+// To save Zakat amount
+router.post('/saveZakatAmount', auth, async (req, res) =>
+{
+    const calculator = new Calculator
+        (
+            {
+                zakatAmount: req.body.zakatAmount,
+                userId: req.user._id
+            }
+        );
+
+    try
+    {
+        await calculator.save();
+        res.status(201).send({ zakatAmount: calculator.zakatAmount });
+    } catch (error)
+    {
+        res.status(400).send(error);
+    }
+});
+
+// Get saved Zakat values for the authenticated user
+router.get('/savedzakatvalues', auth, async (req, res) =>
+{
+    try
+    {
+        // Find Zakat values saved by the authenticated user
+        const zakatValues = await Calculator.find({ userId: req.user._id });
+        
+        // If no Zakat values found, send a 404 response
+        if (!zakatValues)
+        {
+            return res.status(404).send({ error: 'No Zakat values found for this user.' });
+        }
+
+        // Send the found Zakat values
+        res.send(zakatValues);
+    } catch (error)
+    {
+        console.error('Error fetching saved Zakat values:', error);
+        res.status(500).send({ error: 'Internal Server Error' });
+    }
+});
+
+
 
 module.exports = router;
