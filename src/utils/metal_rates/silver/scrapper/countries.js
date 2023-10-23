@@ -6,7 +6,7 @@ const silverCountryList = require('../../../available_locations/silver/country-l
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const silverCountryListObj = JSON.parse(silverCountryList())
+const silverCountryListObj = JSON.parse(silverCountryList());
 
 async function fetchData(url)
 {
@@ -33,8 +33,8 @@ async function extractData()
 
         const $ = await fetchData(url);
         if (!$) continue;
-
         const dataRow = $('tr');
+        
         const rate = dataRow.find('td').eq(9).text();
         const country = location.replace(/-/g, ' ');
         const silverCurrencySymbol = rate.replace(/[0-9.,]+/g, '');

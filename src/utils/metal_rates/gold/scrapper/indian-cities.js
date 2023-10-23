@@ -5,7 +5,6 @@
 const GoldCity = require('../../../../models/metal_rates/gold/gold_cities');
 const axios = require('axios');
 const cheerio = require('cheerio');
-// const fs = require('fs');
 
 const url = `https://www.creditmantri.com/gold-rate/`;
 
@@ -19,7 +18,6 @@ async function extractData(url)
 {
     const $ = await fetchData(url);
     const dataRow = $('tr');
-    // let results = [];
 
     for (let index = 0; index < 30; index += 5) // test for small data
     // for (let index = 0; index < 3630; index += 5) // 3630
@@ -32,7 +30,6 @@ async function extractData(url)
         const goldCost22K = parseFloat(rate22K.replace(/[^0-9.]+/g, ''));
         const goldCost24K = parseFloat(rate24K.replace(/[^0-9.]+/g, ''));
 
-        // results.push({ city: city, rate22K: goldCost22K, rate24K: goldCost24K });
         try
         {
             await GoldCity.findOneAndUpdate({ city }, { rate22K: goldCost22K, rate24K: goldCost24K }, { upsert: true, new: true });
