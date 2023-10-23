@@ -10,26 +10,15 @@ router.post('/calculateZakat', auth, async (req, res) =>
 {
     try
     {
-        // Extract data from the request body
-        const locationForGold = req.body.locationForGold;
-        const purity = req.body.purity;
-        const weightOfGold = req.body.weightOfGold;
-
-        const locationForSilver = req.body.locationForSilver;
-        const weightOfSilver = req.body.weightOfSilver;
-
-        const savings = req.body.savings;
-        const savingsLocation = req.body.savingsLocation;
-
         // Calculate Zakat using the imported function
         const zakatValue = await calculateZakat(
-            savingsLocation,
-            locationForGold,
-            locationForSilver,
-            purity,
-            weightOfGold,
-            weightOfSilver,
-            savings
+            req.body.savingsLocation,
+            req.body.locationForGold,
+            req.body.locationForSilver,
+            req.body.purity,
+            req.body.weightOfGold,
+            req.body.weightOfSilver,
+            req.body.savings
         );
 
         // Display the result in the terminal
@@ -40,36 +29,6 @@ router.post('/calculateZakat', auth, async (req, res) =>
     } catch (error)
     {
         console.error('Error calculating Zakat:', error);
-        res.status(500).send();
-    }
-});
-
-router.post('/calculator/save', auth, async (req, res) =>
-{
-    const calculator = new Calculator({
-        ...req.body,
-        userId: req.user._id
-    });
-
-    try
-    {
-        await calculator.save();
-        res.status(201).send(calculator);
-    } catch (e)
-    {
-        res.status(400).send(e);
-    }
-});
-
-// Get all calculations for the logged-in user
-router.get('/calculator/history', async (req, res) =>
-{
-    try
-    {
-        await req.user.populate('calculations').execPopulate();
-        res.send(req.user.calculations);
-    } catch (e)
-    {
         res.status(500).send();
     }
 });
