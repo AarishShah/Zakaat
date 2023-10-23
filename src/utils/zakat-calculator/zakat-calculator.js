@@ -30,6 +30,7 @@ async function calculateZakat
         savings = 0
     )
 {
+    console.log('From calculator ' + savingsLocation, locationForGold, locationForSilver, purity, weightOfGold, weightOfSilver, savings);
     // local currency
 
     // Nisab for savings
@@ -72,7 +73,8 @@ async function calculateZakat
 
     // Zakat calculation
     const zakatAmount = zakat(goldPrice, silverPrice, priceOfNisabGold, priceOfNisabSilver, priceOfNisabSavingsGold, priceOfNisabSavingsSilver, savings);
-    console.log(zakatAmount);
+    // console.log(zakatAmount);
+    return zakatAmount;
 }
 
 // Zakat calculation function remains unchanged
