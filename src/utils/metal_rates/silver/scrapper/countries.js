@@ -1,6 +1,6 @@
 // Data source: https://rates.goldenchennai.com/world/silver-rate/nepal-silver-rate-today/ (we will use this for countries) // scrapping data from this site is allowed
 
-const Silvercountry = require('../../../../models/metal_rates/silver/silver_countries');
+const SilverCountry = require('../../../../models/metal_rates/silver/silver_countries');
 const silverCountryList = require('../../../available_locations/silver/country-list');
 
 const axios = require('axios');
@@ -42,7 +42,7 @@ async function extractData()
 
         try
         {
-            await Silvercountry.findOneAndUpdate({ country: country }, { currency: silverCurrencySymbol, rate: silverCost }, { upsert: true, new: true });
+            await SilverCountry.findOneAndUpdate({ country: country }, { currency: silverCurrencySymbol, rate: silverCost }, { upsert: true, new: true });
         } catch (error)
         {
             console.error(`Error saving data for ${country}:`, error);

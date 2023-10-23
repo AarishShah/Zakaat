@@ -32,8 +32,8 @@ async function silver2()
 
 // gold1(); // this function excutes in 243 seconds, don't run it unless necessary
 // gold2();
-// silver1(); // this function also takes a lot of time, don't run it unless necessary
-silver2(); // this function takes arounnd 1 min.
+silver1(); // this function also takes a lot of time, don't run it unless necessary
+// silver2(); // this function takes arounnd 1 min.
 
 // @KhushbooHamid --- make the call asynchronous (line 35 to 38)
 // before implementing this code in zakat_calculator, we need to optimised it (this code would work either way but at the cost of time)

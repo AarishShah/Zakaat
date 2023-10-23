@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const silvercountrySchema = new mongoose.Schema(
+const silverCountrySchema = new mongoose.Schema(
   {
     country:
     {
@@ -23,6 +23,6 @@ const silvercountrySchema = new mongoose.Schema(
   }
 );
 
-const Silvercountry = mongoose.model('Silvercountry', silvercountrySchema);
+const SilverCountry = mongoose.model('SilverCountry', silverCountrySchema);
 
-module.exports = Silvercountry;
+module.exports = SilverCountry;
