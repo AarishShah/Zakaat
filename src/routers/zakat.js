@@ -60,7 +60,7 @@ router.get('/savedzakatvalues', auth, async (req, res) =>
     {
         // Find Zakat values saved by the authenticated user
         const zakatValues = await Calculator.find({ userId: req.user._id });
-        
+
         // If no Zakat values found, send a 404 response
         if (!zakatValues)
         {
@@ -72,6 +72,29 @@ router.get('/savedzakatvalues', auth, async (req, res) =>
     } catch (error)
     {
         console.error('Error fetching saved Zakat values:', error);
+        res.status(500).send({ error: 'Internal Server Error' });
+    }
+});
+
+// Delete a specific Zakat value record
+router.delete('/deletezakatvalue/:id', auth, async (req, res) =>
+{
+    try
+    {
+        // Find the Zakat value by ID and user ID, then delete it
+        const zakatValue = await Calculator.findOneAndDelete({ _id: req.params.id, userId: req.user._id });
+
+        // If no Zakat value found, send a 404 response
+        if (!zakatValue)
+        {
+            return res.status(404).send({ error: 'Zakat value not found.' });
+        }
+
+        // Send a success message
+        res.send({ message: 'Zakat value deleted successfully.' });
+    } catch (error)
+    {
+        console.error('Error deleting Zakat value:', error);
         res.status(500).send({ error: 'Internal Server Error' });
     }
 });
