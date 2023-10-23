@@ -49,6 +49,6 @@ async function extractData()
         }
     }
 
-    console.log('Data extraction and saving to database completed.');
+    return 'Completed data extraction and saving for silver countries.';
 }
 module.exports = extractData;

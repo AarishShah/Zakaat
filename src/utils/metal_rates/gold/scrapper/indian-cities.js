@@ -22,7 +22,6 @@ async function extractData(url)
     for (let index = 0; index < 30; index += 5) // test for small data
     // for (let index = 0; index < 3630; index += 5) // 3630
     {
-
         const city = dataRow.find('td').eq(index).text();
         const rate22K = dataRow.find('td').eq(index + 1).text();
         const rate24K = dataRow.find('td').eq(index + 3).text();
@@ -33,13 +32,13 @@ async function extractData(url)
         try
         {
             await GoldCity.findOneAndUpdate({ city }, { rate22K: goldCost22K, rate24K: goldCost24K }, { upsert: true, new: true });
-            console.log(`Data saved for city: ${city}`);
         } catch (error)
         {
             console.error(`Error saving data for city ${city}:`, error);
         }
     }
-    console.log('Data extraction and saving to database completed.');
+    
+    return 'Completed data extraction and saving for gold cities.';
 }
 
 module.exports = extractData;

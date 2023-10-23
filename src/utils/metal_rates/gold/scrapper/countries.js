@@ -47,6 +47,6 @@ async function extractData()
             console.error(`Error saving data for country ${country}:`, error);
         }
     }
-    console.log('Data extraction and saving to database completed.');
+    return 'Completed data extraction and saving for gold countries.';
 }
 module.exports = extractData;

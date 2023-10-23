@@ -19,11 +19,9 @@ async function extractData(url)
     const $ = await fetchData(url);
     const dataRow = $('tr');
 
-
     for (let index = 0; index < 2; index += 3) // test for small data
     // for (let index = 0; index < 1926; index += 3) // 1926
     {
-
         const city = dataRow.find('td').eq(index).text();
         const rate = dataRow.find('td').eq(index + 1).text();
         const cost = parseFloat(rate.replace(/[^0-9.]/g, ''));
@@ -37,8 +35,7 @@ async function extractData(url)
         }
     }
 
-    console.log('Data extraction and saving to database completed.');
-
+    return 'Completed data extraction and saving for silver cities.';
 }
 
 module.exports = extractData;
