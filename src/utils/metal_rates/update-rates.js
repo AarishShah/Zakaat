@@ -1,37 +1,44 @@
-const goldCities = require('./gold/scrapper/indian-cities.js');
-async function gold1()
+require('../../db/mongoose') // to connect mongose to the database
+const mongoose = require('mongoose');
+const fetchGoldRatesForIndianCities = require('./gold/scrapper/indian-cities.js');
+const fetchGoldRatesForCountries = require('./gold/scrapper/countries.js');
+const fetchSilverRatesForIndianCities = require('./silver/scrapper/indian-cities.js');
+const fetchSilverRatesForCountries = require('./silver/scrapper/countries.js');
+
+async function getGoldRatesInIndianCities()
 {
     const url = `https://www.creditmantri.com/gold-rate/`;
-    const data = await goldCities(url);
+    const data = await fetchGoldRatesForIndianCities(url);
     console.log(data);
 }
 
-const goldCountry = require('./gold/scrapper/countries.js');
-async function gold2()
+async function getGoldRatesWorldwide()
 {
-    const data = await goldCountry();
+    const data = await fetchGoldRatesForCountries();
     console.log(data);
 }
 
-const silverCities = require('./silver/scrapper/indian-cities.js');
-async function silver1()
+async function getSilverRatesInIndianCities()
 {
     const url = `https://www.creditmantri.com/silver-rate/`;
-    const data = await silverCities(url);
+    const data = await fetchSilverRatesForIndianCities(url);
     console.log(data);
 }
 
-const silverCountry = require('./silver/scrapper/countries.js');
-async function silver2()
+async function getSilverRatesWorldwide()
 {
-    const data = await silverCountry();
+    const data = await fetchSilverRatesForCountries();
     console.log(data);
 }
 
-gold1(); // this function excutes in 243 seconds, don't run it unless necessary
-gold2();
-silver1(); // this function also takes a lot of time, don't run it unless necessary
-silver2(); // this function takes arounnd 1 min.
+async function executeAll()
+{
+    await getGoldRatesInIndianCities(); // for Indian cities
+    await getGoldRatesWorldwide(); // for countries
+    await getSilverRatesInIndianCities(); // for Indian cities
+    await getSilverRatesWorldwide(); // for countries
+    mongoose.connection.close();
+    console.log('All functions executed, connection closed');
+}
 
-// @KhushbooHamid --- make the call asynchronous (line 35 to 38)
-// before implementing this code in zakat_calculator, we need to optimised it (this code would work either way but at the cost of time)
+executeAll();

@@ -1,14 +1,15 @@
+// require('../../../db/mongoose') // to connect mongose to the database
+// const mongoose = require('mongoose');
 const { isCitySupportedGold, isCountrySupportedGold } = require('../../available_locations/gold/is-available.js');
-const IndianGoldCities = require('../../metal_rates/gold/json-data/indian-cities-data.json');
-const GoldCountries = require('../../metal_rates/gold/json-data/world-data.json');
+const IndianGoldCities = require('../../../models/metal_rates/gold/gold_cities.js'); // Import Mongoose model for Indian cities
+const GoldCountries = require('../../../models/metal_rates/gold/gold_countries.js'); // Import Mongoose model for countries
 
-
-function goldCalculator(location, purity, weight)
+async function goldCalculator(location, purity, weight)
 {
     location = location.toLowerCase();
 
     // Define the price function for gold based on location and purity
-    function price(location, purity)
+    async function price(location, purity)
     {
         // Define a sample price map for gold based on location and purity
 
@@ -18,15 +19,12 @@ function goldCalculator(location, purity, weight)
             let rate24K;
             let currency = 'inr';
 
-            IndianGoldCities.find(element =>
+            const city = await IndianGoldCities.findOne({ city: location });
+            if (city.city === location)
             {
-                if (element.city.toLowerCase() === location)
-                {
-                    rate22K = element.rate22K;
-                    rate24K = element.rate24K;
-                }
-            });
-
+                rate22K = city.rate22K;
+                rate24K = city.rate24K;
+            }
             const rate = purity === 22 ? rate22K : rate24K;
             return { rate, currency };
 
@@ -38,16 +36,14 @@ function goldCalculator(location, purity, weight)
             let rate24K;
             let currency;
 
-            GoldCountries.find(element =>
+            const country = await GoldCountries.findOne({ country: location });
+            if (country.country === location)
             {
-                if (element.country.toLowerCase() === location)
-                {
-                    rate18K = element.rate18K;
-                    rate22K = element.rate22K;
-                    rate24K = element.rate24K;
-                    currency = element.currency.trim().toLowerCase();
-                }
-            });
+                rate18K = country.rate18K;
+                rate22K = country.rate22K;
+                rate24K = country.rate24K;
+                currency = country.currency.trim().toLowerCase();
+            }
 
             const rate = purity === 18 ? rate18K : (purity === 22 ? rate22K : rate24K);
             return { rate, currency };
@@ -74,13 +70,29 @@ function goldCalculator(location, purity, weight)
     }
 
     // Calculate the cost of gold
-    const { rate, currency } = price(location, purity);
+    const { rate, currency } = await price(location, purity);
     const cost = weight * rate;
     return { cost, currency };
 
 }
-// Example:
-// const result = goldCalculator('mumbai', 22, 1000);
-// console.log(`The gold price is ${result.cost} ${result.currency}`);
+
+// Example usage:
+// async function example()
+// {
+//     try
+//     {
+//         const result = await Calculator('Chennai', 24, 1000);
+//         console.log(`The gold price is ${result.cost} ${result.currency}`);
+//     } catch (error)
+//     {
+//         console.error('Error:', error);
+//     } finally
+//     {
+//         // mongoose.connection.close();
+//         // console.log('All functions executed, connection closed');
+//     }
+// }
+
+// // example();
 
 module.exports = goldCalculator;

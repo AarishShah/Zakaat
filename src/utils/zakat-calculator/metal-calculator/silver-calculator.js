@@ -1,25 +1,25 @@
+// require('../../../db/mongoose') // to connect mongose to the database
+// const mongoose = require('mongoose');
 const { isCitySupportedSilver, isCountrySupportedSilver } = require('../../available_locations/silver/is-available.js');
-const IndianSilverCities = require('../../metal_rates/silver/json-data/indian-cities-data.json');
-const SilverCountries = require('../../metal_rates/silver/json-data/world-data.json');
+const IndianSilverCities = require('../../../models/metal_rates/silver/silver_cities.js'); // Import Mongoose model for Indian cities
+const SilverCountries = require('../../../models/metal_rates/silver/silver_countries.js'); // Import Mongoose model for countries
 
-function silverCalculator(location, weight)
+async function silverCalculator(location, weight)
 {
     location = location.toLowerCase();
 
-    function price(location)
+    async function price(location)
     {
         if (isCitySupportedSilver(location))
         {
             let rate;
             let currency = 'inr';
 
-            IndianSilverCities.find(element =>
+            const city = await IndianSilverCities.findOne({ city: location });
+            if (city.city === location)
             {
-                if (element.city.toLowerCase() === location)
-                {
-                    rate = element.rate;
-                }
-            });
+                rate = city.rate;
+            }
 
             return { rate, currency };
 
@@ -28,14 +28,12 @@ function silverCalculator(location, weight)
             let rate;
             let currency;
 
-            SilverCountries.find(element =>
+            const country = await SilverCountries.findOne({ country: location });
+            if (country.country === location)
             {
-                if (element.country.toLowerCase() === location)
-                {
-                    rate = element.rate;
-                    currency = element.currency.trim().toLowerCase();
-                }
-            });
+                rate = country.rate;
+                currency = country.currency.trim().toLowerCase();
+            }
 
             return { rate, currency };
         }
@@ -50,12 +48,27 @@ function silverCalculator(location, weight)
     }
 
     // Calculate the cost of gold
-    const { rate, currency } = price(location);
+    const { rate, currency } = await price(location);
     const cost = weight * rate;
     return { cost, currency };
 }
-// Example:
-// const result = silverCalculator('mumbai', 1000);
-// console.log(`The silver price is ${result.cost} ${result.currency}`);
+// Example usage:
+// async function example()
+// {
+//     try
+//     {
+//         const result = await silverCalculator('chennai', 1000);
+//         console.log(`The silver price is ${result.cost} ${result.currency}`);
+//     } catch (error)
+//     {
+//         console.error('Error:', error);
+//     } finally
+//     {
+//         // mongoose.connection.close();
+//         // console.log('All functions executed, connection closed');
+//     }
+// }
+
+// example();
 
 module.exports = silverCalculator;
