@@ -18,8 +18,8 @@ async function extractData()
 {
     let location = "";
 
-    for (let index = 0; index < 2; index++) // test for small data
-    // for (let index = 0; index < 57; index++)
+    // for (let index = 0; index < 2; index++) // test for small data
+    for (let index = 0; index < 57; index++)
     {
         location = goldCountryListObj[index].replace(/\s/g, '-')
         const url = `https://rates.goldenchennai.com/world/gold-rate/${location}-gold-rate-today/`

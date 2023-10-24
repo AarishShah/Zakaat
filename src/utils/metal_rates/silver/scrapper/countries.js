@@ -25,8 +25,8 @@ async function extractData()
 {
     let location = "";
 
-    for (let index = 0; index < 2; index++) // test for small data
-    // for (let index = 0; index < 57; index++)
+    // for (let index = 0; index < 2; index++) // test for small data
+    for (let index = 0; index < 57; index++)
     {
         location = silverCountryListObj[index].replace(/\s/g, '-')
         const url = `https://rates.goldenchennai.com/world/silver-rate/${location}-silver-rate-today/`
