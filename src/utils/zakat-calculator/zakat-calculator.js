@@ -34,16 +34,16 @@ async function calculateZakat
     // local currency
 
     // Nisab for savings
-    const one = goldCalculator(savingsLocation, 24, NISAB_GOLD);
-    const two = silverCalculator(savingsLocation, NISAB_SILVER);
+    const one = await goldCalculator(savingsLocation, 24, NISAB_GOLD);
+    const two = await silverCalculator(savingsLocation, NISAB_SILVER);
 
     // Nisab for metals
-    const three = goldCalculator(locationForGold, 24, NISAB_GOLD);
-    const four = silverCalculator(locationForSilver, NISAB_SILVER);
+    const three = await goldCalculator(locationForGold, 24, NISAB_GOLD);
+    const four = await silverCalculator(locationForSilver, NISAB_SILVER);
 
     // Price of metals - calculated
-    const five = goldCalculator(locationForGold, purity, weightOfGold);
-    const six = silverCalculator(locationForSilver, weightOfSilver);
+    const five = await goldCalculator(locationForGold, purity, weightOfGold);
+    const six = await silverCalculator(locationForSilver, weightOfSilver);
 
     // to collect local currency (for frontend)
     const seven = one.cost;

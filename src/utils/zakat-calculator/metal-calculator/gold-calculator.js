@@ -1,11 +1,10 @@
-require('../../../db/mongoose') // to connect mongose to the database
-const mongoose = require('mongoose');
+// require('../../../db/mongoose') // to connect mongose to the database
+// const mongoose = require('mongoose');
 const { isCitySupportedGold, isCountrySupportedGold } = require('../../available_locations/gold/is-available.js');
 const IndianGoldCities = require('../../../models/metal_rates/gold/gold_cities.js'); // Import Mongoose model for Indian cities
 const GoldCountries = require('../../../models/metal_rates/gold/gold_countries.js'); // Import Mongoose model for countries
 
-
-async function Calculator(location, purity, weight)
+async function goldCalculator(location, purity, weight)
 {
     location = location.toLowerCase();
 
@@ -78,22 +77,22 @@ async function Calculator(location, purity, weight)
 }
 
 // Example usage:
-async function goldCalculator(location, purity, weight)
-{
-    try
-    {
-        const result = await Calculator(location, purity, weight);
-        console.log(`The gold price is ${result.cost} ${result.currency}`);
-    } catch (error)
-    {
-        console.error('Error:', error);
-    } finally
-    {
-        // mongoose.connection.close();
-        // console.log('All functions executed, connection closed');
-    }
-}
+// async function example()
+// {
+//     try
+//     {
+//         const result = await Calculator('Chennai', 24, 1000);
+//         console.log(`The gold price is ${result.cost} ${result.currency}`);
+//     } catch (error)
+//     {
+//         console.error('Error:', error);
+//     } finally
+//     {
+//         // mongoose.connection.close();
+//         // console.log('All functions executed, connection closed');
+//     }
+// }
 
-// goldCalculator('Chennai', 24, 1000);
+// // example();
 
 module.exports = goldCalculator;
