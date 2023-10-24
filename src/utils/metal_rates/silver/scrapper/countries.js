@@ -36,7 +36,7 @@ async function extractData()
         const dataRow = $('tr');
         
         const rate = dataRow.find('td').eq(9).text();
-        const country = location.replace(/-/g, ' ');
+        const country = location.replace(/-/g, ' ').toLowerCase();
         const silverCurrencySymbol = rate.replace(/[0-9.,]+/g, '');
         const silverCost = parseFloat(rate.replace(/[^0-9.]+/g, ''));
 

@@ -33,7 +33,7 @@ async function extractData()
         const rate22K = dataRow.find('td').eq(17).text();
         const rate24K = dataRow.find('td').eq(19).text();
 
-        const country = location.replace(/-/g, ' ');
+        const country = location.replace(/-/g, ' ').toLowerCase();
         const goldCurrencySymbol = rate18K.replace(/[0-9.,]+/g, '');
         const goldCost18K = parseFloat(rate18K.replace(/[^0-9.]+/g, ''));
         const goldCost22K = parseFloat(rate22K.replace(/[^0-9.]+/g, ''));

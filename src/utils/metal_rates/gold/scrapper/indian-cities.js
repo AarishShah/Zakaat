@@ -22,7 +22,7 @@ async function extractData(url)
     for (let index = 0; index < 30; index += 5) // test for small data
     // for (let index = 0; index < 3630; index += 5) // 3630
     {
-        const city = dataRow.find('td').eq(index).text();
+        const city = dataRow.find('td').eq(index).text().toLowerCase();
         const rate22K = dataRow.find('td').eq(index + 1).text();
         const rate24K = dataRow.find('td').eq(index + 3).text();
 
