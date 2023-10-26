@@ -8,7 +8,7 @@ const userRouter = require('./routers/user')
 const zakatRouter = require('./routers/zakat')
 
 const app = express()
-const port = process.env.PORT || 3000 // to make our app work on heroku
+const port = process.env.PORT || 5000 // to make our app work on heroku
 
 app.use(express.json()) // configuring express to automatically parse the incoming json so we can use it as an oject
 app.use(userRouter) // to register our router
