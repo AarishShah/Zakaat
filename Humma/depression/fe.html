@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Fields</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b1b1b;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            height: 99vh;
+            color: #ffffff;
+        }
+
+        .field {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: slideDown 0.5s forwards;
+            flex-wrap: wrap;
+        }
+
+        .field label,
+        .field select,
+        .field input,
+        .field span,
+        .field button {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .field label {
+            text-align: right;
+            margin-right: 10px;
+            padding: 10px 20px;
+            background-color: #222;
+        }
+
+        .field select,
+        .field input,
+        .field span {
+            max-width: 150px;
+            text-align: left;
+            margin-right: 10px;
+        }
+
+        .field button {
+            flex: 0 0 auto;
+            margin-left: auto;
+        }
+
+        @keyframes slideDown {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        select,
+        input,
+        button {
+            padding: 5px 12px;
+            margin-right: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: #ddb85a;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            padding: 10px 25px;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            background-color: #614022;
+        }
+
+        #totalSum {
+            font-weight: bold;
+            margin-top: 20px;
+            padding: 10px;
+            color: #666;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+        }
+
+        .container {
+            box-sizing: border-box;
+            width: 60vw;
+            background-color: #3b3b3b;
+            border-radius: 20px;
+            min-height: 50vh;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 1px #222;
+            padding: 5%;
+        }
+
+        #categorySelect {
+            background-color: #ddb85a;
+        }
+
+        @media only screen and (max-width: 900px) {
+            .container {
+                width: 90vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: #ddb85a;">Real Time Zakat Calculator</h1>
+    <div class="container">
+        <select id="categorySelect" style="margin-bottom: 15px;">
+            <option value="Select" selected>Select</option>
+            <option value="Gold">Gold</option>
+            <option value="Silver">Silver</option>
+            <option value="Savings">Savings</option>
+            <option value="Custom">Custom</option>
+        </select>
+        <button id="addFieldButton">Add Field</button>
+        <div id="fieldsContainer"></div>
+        <div id="totalSum">Zakat <span style='color:#1b1b1b; padding:10px 20px;'>0</span></div>
+    </div>
+    <script>
+        let total = 0;
+
+        document.getElementById('addFieldButton').addEventListener('click', addField);
+
+        function addField() {
+            const categorySelect = document.getElementById('categorySelect');
+            const category = categorySelect.value;
+            if (category === "Select") {
+                alert("Please select a valid category.");
+                return;
+            }
+
+            const container = document.getElementById('fieldsContainer');
+            const field = document.createElement('div');
+            field.className = 'field';
+
+            const label = document.createElement('label');
+            if (category === 'Custom') {
+                const customName = prompt("Enter the name for the custom field:");
+                if (!customName || customName.trim() === "") {
+                    alert("You must provide a name for the custom field.");
+                    return; // Do not proceed with field creation
+                }
+                label.innerText = customName;
+            } else {
+                label.innerText = category;
+            }
+            field.appendChild(label);
+
+            if (category === 'Gold') {
+                addGoldFeatures(field);
+            } else if (category === 'Silver') {
+                addSilverFeatures(field);
+            } else if (category === 'Savings') {
+                addSavingsFeatures(field);
+            } else if (category === 'Custom') {
+                addCustomFeatures(field);
+            }
+
+            const deleteButton = document.createElement('button');
+            deleteButton.innerText = 'Delete';
+            const spanElement = document.createElement('p');
+
+            // Add a class name to the span element
+            spanElement.classList.add('DU'); // Replace 'yourClassName' with the desired class name
+
+            deleteButton.onclick = function () {
+                container.removeChild(field);
+                updateTotalSum();
+            };
+            field.appendChild(spanElement);
+            field.appendChild(deleteButton);
+
+            container.appendChild(field);
+        }
+
+        function addGoldFeatures(field) {
+            const countrySelect = createCountrySelect(field);
+            const weightInput = createWeightInput(field, 'Weight of Gold');
+            const puritySelect = createPuritySelect(field);
+            const output = createOutput(field);
+            weightInput.addEventListener('input', function () { calculateGoldValue(weightInput, puritySelect, output); });
+            puritySelect.addEventListener('change', function () { calculateGoldValue(weightInput, puritySelect, output); });
+        }
+
+        function addSilverFeatures(field) {
+            const countrySelect = createCountrySelect(field);
+            const weightInput = createWeightInput(field, 'Weight of Silver');
+            const output = createOutput(field);
+            weightInput.addEventListener('input', function () { calculateSilverValue(weightInput, output); });
+        }
+
+        function addSavingsFeatures(field) {
+            const savingsInput = document.createElement('input');
+            savingsInput.type = 'number';
+            savingsInput.placeholder = 'Enter savings amount';
+            field.appendChild(savingsInput);
+            const output = createOutput(field);
+            savingsInput.addEventListener('input', function () { calculateSavingsValue(savingsInput, output); });
+        }
+
+        function addCustomFeatures(field) {
+            const customInput = document.createElement('input');
+            customInput.type = 'number';
+            customInput.placeholder = 'Enter value';
+            field.appendChild(customInput);
+            const output = createOutput(field);
+            customInput.addEventListener('input', function () { calculateCustomValue(customInput, output); });
+        }
+
+        function createCountrySelect(field) {
+            const countrySelect = document.createElement('select');
+            ['United States', 'Afghanistan', 'Oman', 'Iraq', 'Malaysia'].forEach(country => {
+                const option = document.createElement('option');
+                option.value = country;
+                option.innerText = country;
+                countrySelect.appendChild(option);
+            });
+            countrySelect.addEventListener('change', function () {
+                if (countrySelect.value === 'India') {
+                    addCitySelect(field);
+                } else {
+                    removeCitySelect(field);
+                }
+            });
+            field.appendChild(countrySelect);
+            return countrySelect;
+        }
+
+        function createWeightInput(field, placeholder) {
+            const weightInput = document.createElement('input');
+            weightInput.type = 'number';
+            weightInput.placeholder = placeholder;
+            field.appendChild(weightInput);
+            return weightInput;
+        }
+
+        function createPuritySelect(field) {
+            const puritySelect = document.createElement('select');
+            [18, 22, 24].forEach(purity => {
+                const option = document.createElement('option');
+                option.value = purity;
+                option.innerText = purity;
+                puritySelect.appendChild(option);
+            });
+            field.appendChild(puritySelect);
+            return puritySelect;
+        }
+
+        function createOutput(field) {
+            const output = document.createElement('span');
+            output.innerText = '0';
+            field.appendChild(output);
+            return output;
+        }
+
+        function addCitySelect(field) {
+            if (field.querySelector('.citySelect')) return;
+
+        }
+
+        function removeCitySelect(field) {
+            const citySelect = field.querySelector('.citySelect');
+            if (citySelect) {
+                field.removeChild(citySelect);
+            }
+        }
+
+        function calculateGoldValue(weightInput, puritySelect, output) {
+            const value = (parseFloat(weightInput.value) || 0) * parseFloat(puritySelect.value);
+            output.innerText = value;
+            updateTotalSum();
+        }
+
+        function calculateSilverValue(weightInput, output) {
+            const value = parseFloat(weightInput.value) || 0;
+            output.innerText = value;
+            updateTotalSum();
+        }
+
+        function calculateSavingsValue(savingsInput, output) {
+            const value = parseFloat(savingsInput.value) || 0;
+            output.innerText = value;
+            updateTotalSum();
+        }
+
+        function calculateCustomValue(customInput, output) {
+            const value = parseFloat(customInput.value) || 0;
+            output.innerText = value;
+            updateTotalSum();
+        }
+
+        function updateTotalSum() {
+            total = Array.from(document.querySelectorAll('.field span')).reduce((acc, span) => acc + parseFloat(span.innerText), 0);
+            var DU = document.getElementsByClassName('DU');
+            for (var i = 0; i < DU.length; i++) {
+                DU[i].innerHTML = "Zakat" + "<span style='color:#1b1b1b; padding:10px 20px;'>" + total + "</span>";
+            }
+            document.getElementById('totalSum').innerHTML = "Zakat" + "<span style='color:#1b1b1b; padding:10px 20px;'>" + total + "</span>";
+        }
+    </script>
+</body>
+
+</html>
