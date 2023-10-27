@@ -5,7 +5,7 @@ const { calculateZakat } = require('../utils/zakat-calculator/zakat-calculator')
 const router = new express.Router();
 
 // To calculate Zakat
-router.post('/calculateZakat', auth, async (req, res) =>
+router.post('/calculateZakat', async (req, res) =>
 {
     try
     {
