@@ -12,7 +12,7 @@ export default function Zakat(props) {
               Qur'an)
             </i>
           </p>
-          <li>Zakat Amount {props.response?.zakatValue?.zakatAmount} 🤑</li>
+          <li> <b> Zakat Amount: </b> <i> {props.response?.zakatValue?.zakatAmount} USD </i> </li>
           <h3>Don't forget to pay!</h3>
         </ul>
       )}
