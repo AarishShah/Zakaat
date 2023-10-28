@@ -9,18 +9,11 @@ const userRouter = require('./routers/user')
 const zakatRouter = require('./routers/zakat')
 
 const app = express()
-const port = process.env.PORT || 5000 // to make our app work on heroku
+const port = process.env.PORT || 5000
 
 app.use(express.json()) // configuring express to automatically parse the incoming json so we can use it as an oject
-app.use(userRouter) // to register our router
-app.use(zakatRouter)
-
-
-// app.use(express.static(path.join(__dirname, '../public')));
-// app.set('view engine', 'hbs');
-// app.set('views', path.join(__dirname, '../view'));
-
-
+app.use(userRouter) // to register user router
+app.use(zakatRouter) // to register zakat router
 
 app.listen
     (port, () => { console.log('Server is up on port ' + port); })
