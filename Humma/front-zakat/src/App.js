@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import { ZakatForm } from './components/ZakatForm';
+import { ZakatForm } from "./components/ZakatForm";
+
+import "./index.css";
 
 function App() {
   return (
