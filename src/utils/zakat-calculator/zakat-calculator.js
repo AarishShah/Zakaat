@@ -60,19 +60,21 @@ async function calculateZakat
     const eighteen = six.currency;
 
     // USD currency
-    let priceOfNisabSavingsGold, priceOfNisabSavingsSilver;
+    let goldPrice, silverPrice;
 
-    if (one.cost === 0) { priceOfNisabSavingsGold = 0; savings = 0; } else { priceOfNisabSavingsGold = await currencyConverter(one.cost, one.currency, 'usd'); }
-    if (two.cost === 0) { priceOfNisabSavingsSilver = 0; savings = 0; } else { priceOfNisabSavingsSilver = await currencyConverter(two.cost, two.currency, 'usd'); }
+    const priceOfNisabSavingsGold = await currencyConverter(one.cost, one.currency, 'usd');
+    const priceOfNisabSavingsSilver = await currencyConverter(two.cost, two.currency, 'usd');
+    const priceOfNisabSavings = Math.min(priceOfNisabSavingsGold, priceOfNisabSavingsSilver); // min of priceOfNisabSavingsGold and priceOfNisabSavingsSilver
 
     const priceOfNisabGold = await currencyConverter(three.cost, three.currency, 'usd');
     const priceOfNisabSilver = await currencyConverter(four.cost, four.currency, 'usd');
+    const priceOfNisabMetal = Math.min(priceOfNisabGold, priceOfNisabSilver); // min of priceOfNisabGold and priceOfNisabSilver
 
-    const goldPrice = await currencyConverter(five.cost, five.currency, 'usd');
-    const silverPrice = await currencyConverter(six.cost, six.currency, 'usd');
+    if (five.cost === 0) { goldPrice = 0; } else { goldPrice = await currencyConverter(five.cost, five.currency, 'usd'); }
+    if (six.cost === 0) { silverPrice = 0; } else { silverPrice = await currencyConverter(six.cost, six.currency, 'usd'); }
 
     // Zakat calculation
-    const zakatAmount = zakat(goldPrice, silverPrice, priceOfNisabGold, priceOfNisabSilver, priceOfNisabSavingsGold, priceOfNisabSavingsSilver, savings);
+    const zakatAmount = zakat(goldPrice, silverPrice, priceOfNisabMetal, priceOfNisabSavings, savings);
     // console.log(zakatAmount);
     return {
         goldPrice,
@@ -87,25 +89,23 @@ function zakat
     (
         goldPrice1 = 0,
         silverPrice2 = 0,
-        priceOfNISABGold3 = 0,
-        priceOfNISABSilver4 = 0,
-        priceOfNisabSavingsGold5 = 0,
-        priceOfNisabSavingsSilver6 = 0,
-        savings7 = 0
+        priceOfNisabMetal3 = 0,
+        priceOfNisabSavings4 = 0,
+        savings5 = 0
     )
 {
     let totalAboveNisab = 0;
 
     // Check if metals are above Nisab
-    if (goldPrice1 > priceOfNISABGold3 || silverPrice2 > priceOfNISABSilver4)
+    if (goldPrice1 > priceOfNisabMetal3 || silverPrice2 > priceOfNisabMetal3)
     {
         totalAboveNisab += goldPrice1 + silverPrice2;
     }
 
     // Check if savings are above Nisab
-    if (savings7 > priceOfNisabSavingsGold5 || savings7 > priceOfNisabSavingsSilver6)
+    if (savings5 > priceOfNisabSavings4)
     {
-        totalAboveNisab += savings7;
+        totalAboveNisab += savings5;
     }
 
     // If neither metals nor savings are above Nisab, return 0
