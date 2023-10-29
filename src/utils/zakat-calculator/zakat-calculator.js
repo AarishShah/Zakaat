@@ -71,13 +71,15 @@ async function calculateZakat
     const goldPrice = await currencyConverter(five.cost, five.currency, 'usd');
     const silverPrice = await currencyConverter(six.cost, six.currency, 'usd');
 
+    const savingsUSD = await currencyConverter(savings, one.currency, 'usd');
+
     // Zakat calculation
-    const zakatAmount = zakat(goldPrice, silverPrice, priceOfNisabGold, priceOfNisabSilver, priceOfNisabSavingsGold, priceOfNisabSavingsSilver, savings);
+    const zakatAmount = zakat(goldPrice, silverPrice, priceOfNisabGold, priceOfNisabSilver, priceOfNisabSavingsGold, priceOfNisabSavingsSilver, savingsUSD);
     // console.log(zakatAmount);
     return {
         goldPrice,
         silverPrice,
-        savings,
+        savingsUSD,
         zakatAmount
     };
 }
