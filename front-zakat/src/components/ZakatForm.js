@@ -116,7 +116,7 @@ export const ZakatForm = () => {
 
   return (
     <div>
-      <h1>Zakat Calculator</h1>
+      <h1 >Real Time Zakat Calculator</h1>
       <form className="field" onSubmit={handleSubmit}>
         <select
           value={metal}
