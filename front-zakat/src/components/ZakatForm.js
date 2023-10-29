@@ -10,7 +10,6 @@ const countries = [
   { value: "argentina", text: "Argentina" },
   { value: "australia", text: "Australia" },
   { value: "austria", text: "Austria" },
-  { value: "bangladesh", text: "Bangladesh" },
   { value: "belgium", text: "Belgium" },
   { value: "bhutan", text: "Bhutan" },
   { value: "brazil", text: "Brazil" },
