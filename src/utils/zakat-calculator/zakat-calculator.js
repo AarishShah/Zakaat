@@ -62,22 +62,24 @@ async function calculateZakat
     if (five.cost === 0) { goldPrice = 0; } else { goldPrice = await currencyConverter(five.cost, five.currency, 'usd'); }
     if (six.cost === 0) { silverPrice = 0; } else { silverPrice = await currencyConverter(six.cost, six.currency, 'usd'); }
 
+    const savingsUSD = await currencyConverter(savings, one.currency, 'usd');
+
     // Zakat calculation
-    const zakatAmount = zakat(goldPrice, silverPrice, Nisab, savings);
+    const zakatAmount = zakat(goldPrice, silverPrice, Nisab, savingsUSD);
     // console.log(zakatAmount);
     return {
         goldPrice,
         silverPrice,
-        savings,
+        savingsUSD,
         Nisab,
         zakatAmount
     };
 }
 
 // Zakat calculation function remains unchanged
-function zakat(goldPrice, silverPrice, Nisab, savings)
+function zakat(goldPrice, silverPrice, Nisab, savingsUSD)
 {
-    const totalWealth = goldPrice + silverPrice + savings;
+    const totalWealth = goldPrice + silverPrice + savingsUSD;
     return totalWealth > Nisab ? totalWealth * ZAKAT_RATE : 0;
 }
 
