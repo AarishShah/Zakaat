@@ -162,7 +162,7 @@ userSchema.pre('save', async function (next) // 1st parameter = name of the even
 // Delete user tasks when user is removed
 userSchema.pre('remove', async function (next)
 {
-    const user = this
+    const user = this``
     await Task.deleteMany({ owner: user._id })
 
     next()
